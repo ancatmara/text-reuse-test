@@ -1,0 +1,94 @@
+12000001	Cath Almaine and-so.	NULL	cath_almaine_2
+12000002	Baí cocad mór iter Chathal mac Findguine & Fergal mac Maíli-dúin fri ré fota.	NULL	cath_almaine_2
+12000003	Cathal mac Finngune meic Con-gen-máthair meic Cathail meic Áeda Flaind Cathrach meic Cairpre meic Crimthainn Sreb meic Echach meic Áengusa meic Nadfraích.	NULL	cath_almaine_2
+12000004	Docrech Laigniu trá Fergal mac Maíli-dúin ar ulcuib fria Cathal mac Findgaine.	NULL	cath_almaine_2
+12000005	Roairg dno Cathal mac Findgani Mag m-Breg uili co n-dernsad síd & comosad.	NULL	cath_almaine_2
+12000006	Do-luid trá fecht and Fergal atuaid do saigid bóroma ar Laignib co feraib in tuaiscirt uime.	NULL	cath_almaine_2
+12000007	Ba fada trá robás acan tinól-sin la Fergal.	NULL	cath_almaine_2
+12000008	Is ed ad-bered cach fer fris:	NULL	cath_almaine_2
+12000009	‘dia n-dechad Dond Bó lat, ragad-sa lat’.	NULL	cath_almaine_2
+12000010	Baintrebthach immorro máthair Duind Bó.	NULL	cath_almaine_2
+12000011	Is amlaid immorro baí Dond Bó; mac as áine & is áilli & is chaíme baí a n-Érinn ésen.	NULL	cath_almaine_2
+12000012	Nír léic a máthair do Dunn Bó dul aráen re Fergal co tardad rátha & cora Coluim Chilli fris co tísad slán ar cúlu.	NULL	cath_almaine_2
+12000013	Tuctha dó sin.	NULL	cath_almaine_2
+12000014	Tic ar sin Fergal d'indsaigid Laigen.	NULL	cath_almaine_2
+12000015	Bádar immorro droch-eolaig ria Fergal & tucsad ar aimréigib na críchi uili h-é.	NULL	cath_almaine_2
+12000016	Is í iarum conair thucsad an eolaig .i. do Chluain Dolcain, & gabsad longport ar brú na cilli & tucsad imadall mór arin cill .i. araili clam baí in tan-sin & áen-bó ogai; táncas íar tain docum in chlaim co robenad a tech dia chind, & tardad forgom do gaí fair co tarla triana brat & co romarbad a én-bó, & rohindeonad ar beraib iaraind in bó iar sin.	NULL	cath_almaine_2
+12000017	Is ann-sin as-bert Cú-Bretan mac Áengusa rí Fer Rois.	NULL	cath_almaine_2
+12000018	At-ágar cath forderg fland, a firg Fhergaile ad-glind, ad brónaig muinter Meic Muiri ar m-breith a taigi dia chind.	NULL	cath_almaine_2
+12000019	Bó in chlaim, dogáed a n-degaid an doim, mairg láim ler tolled a brat ria techt i cath co mac m-Brain.	NULL	cath_almaine_2
+12000020	Dá m-beith neach do-berad cath matren dreman ria mac m-Brain; andsa leam oldás ind ráe in cáe rocanad in chlaim.	NULL	cath_almaine_2
+12000021	Is and-sin as-bert fria Dond m-Bó in aidhchi-sin ré tobairt in chatha:	NULL	cath_almaine_2
+12000022	‘déntar let ar n-airfided innocht a Duind Bó’ ar Fergal, ar is é Dond Bó fer airfidig as dech baí i nn-Érinn iter senchas & rundu & cuslind & cach ciniúl airfidig archeana.	NULL	cath_almaine_2
+12000023	Ad-bert Dond Bó:	NULL	cath_almaine_2
+12000024	‘ní fédaim-sea ém áen-fhocol ar mo bél anocht & airfided nech aili thú anocht.	NULL	cath_almaine_2
+12000025	Acht chena cidbé airm a rabais amárach d'agaid do-dén-sa th'airfided.	NULL	cath_almaine_2
+12000026	Dénad iarum úa Maiglindi innocht ar n-airfided ar is é ríg-drúth Érenn hé’.	NULL	cath_almaine_2
+12000027	Do-rónnad dno amlaid-sin an aidchi-sin.	NULL	cath_almaine_2
+12000028	Lodar Laigin arnamárach co Cruachan Cláenta & táncadar íar sin co Dind Canand.	NULL	cath_almaine_2
+12000029	Is and-sin trá con-ráncadar Leth Cuind & Laigin ceand i cend & rocommórad and-sin trá ind urgal & inn imargul is fíchda roferad i n-Érinn riam.	NULL	cath_almaine_2
+12000030	Ba fortrén ba ferrda rofiged in gleo guineach gáimtheach in tan-sin.	NULL	cath_almaine_2
+12000031	Badar imda trá and-sin meic ríg & ruirech & rodáeine & tánaisti flatha fodésin & sáerclanda socheineóil a n-égmais a n-anma.	NULL	cath_almaine_2
+12000032	Ba buideach badb birach bélsalach in uair-sin & bad brónaid máthair báeid ig gul & ig golgairi ac caíneadi na sáercland in uair-sin.	NULL	cath_almaine_2
+12000033	Ní roan trá & nír thairis menma Coluim Cilli ar Uíb Néill isin cath-sin la faicsin m-Brigdi ós cath Laigen ac fubdad slóig Lethi Cuind, conad la faicsin Brigdi amlaid-sin romebaid in cath ar Fergal & ar Leth Cuind ria n-Áed .i. rí Descirt Laigen, & is ésin romarb Fergal & Buan mac Baili rí Alban & Dond Bó, & co n-dorchair Dond Bó didiu ní romarbad Fergal.	NULL	cath_almaine_2
+12000034	Atá didiu Cnoc & Brí Buain meic Baile rí Alban and-sin béos.	NULL	cath_almaine_2
+12000035	Seasca ar cét romarbad and d'amsaib in ríg and .i. Conall Meand rí Ceneóil Cairpre, & Forbhasach rí Ceneóil Bóguine, & Fergal úa h-Aithechda, & Fergal mac Echach Leamnai rí Tamnaigi, & Condalach mac Conaing, & Éignech mac Olcan rí na n-Airter, Coibdinach mac Fiachrach, & Muirgius mac Conaill, Lethait mac Con-carad, & Áedgen úa Mathgne, Nuada mac Oirc rí Gall, & dech uí Máeili-fithrig.	NULL	cath_almaine_2
+12000036	At é and-sin trá ríga in tuaiscirt do-ecrsad isin chath-sin.	NULL	cath_almaine_2
+12000037	At iat-so immorro ríga Uá Néill in Deiscirt romarbaid and .i. Fland mac Ragnaill, Ailill mac Feradaig, Áed Laigen úa Cernaig, Suibni mac Congalaig, Nia mac Cormaic, Dub-dá-crích mac Duib-dá-inber, Ailill mac Conaill Grant, Flaitheamail mac Dlúthaig rí Corpre Cruim, Fergus ó h-Eogain.	NULL	cath_almaine_2
+12000038	Hic totus numirus de reigibus ceciderunt & alii novem uolatiles septem millia cecinerunt in bello ab utroque exercitu.	NULL	cath_almaine_2
+12000039	inde Nuadu úa Lomthuile:	NULL	cath_almaine_2
+12000040	Medón laí a n-Almaine, ag cosnum buair Bregmaine, ro-lá badb bélderg birach ilach im cheand Feargaile.	NULL	cath_almaine_2
+12000041	Scarais Murcad fri midlaig, i m-rogaes trén for talmain; do-sói fóebar fri Feargal, co fén n-dermair de Almain.	NULL	cath_almaine_2
+12000042	Ad-bath cét ruireach rathach ruamach, co cét costadach carnach, im náei gelta gin míne, im secht míli fer n-armach.	NULL	cath_almaine_2
+12000043	A tertkalendas Decimper ar aí laithi mís gréne & dia Mairt ar aí laithi sechtmaine rofigead cath Almaine.	NULL	cath_almaine_2
+12000044	Is and-sin rogabad úa Maiglindi, .i. in ríg-drúith, la Laigniu & la Murchad & do-radad fair gém druad do dénam.	NULL	cath_almaine_2
+12000045	Ba mór trá in géim-sin & ba bind co fuil gém úa Maiglindi ac sochaide d'feraib Érenn ó sin ille.	NULL	cath_almaine_2
+12000046	Do-radad iar sin bém dar a munél cor beanad a cheand de.	NULL	cath_almaine_2
+12000047	Ad-beraid aroili na h-eolach robaí gém uí Maiglindi isinn áer co ceann trí tráth.	NULL	cath_almaine_2
+12000048	Is de-sin atá gém uí Maiglindi ac tofund na fer isin mónaid.	NULL	cath_almaine_2
+12000049	Is and-sin ad-bert araili láech maith do Conachtaib ri macaib:	NULL	cath_almaine_2
+12000050	‘nácham-fácbaid a gillu’, ol sé, ‘bid fearrdi frib menma bar máthar dianum-rucasa lib.’	NULL	cath_almaine_2
+12000051	Impóid iar sin fris & tócbaid leo h-é.	NULL	cath_almaine_2
+12000052	Do-luid Áed Allán mac Feargaile asin cath co ránic in Gall dár comainm Lilach & adchis-eom in Gall .i. Lisicach nó Lilcach leis dia comairci.	NULL	cath_almaine_2
+12000053	Pruidens didiu ainm in Gaill-sin; co n-deachaid int aingel ar in cleith a richt in clérig, air do-arngert bithanad isin chill-sin.	NULL	cath_almaine_2
+12000054	Is and-sin ad-bert Áed Allán in rand-sa:	NULL	cath_almaine_2
+12000055	Ní ráncamar ar talmain Almain bade rédigthir, ní fuaramar iarsin cath Lilcach ulchach badi néimidhir.	NULL	cath_almaine_2
+12000056	Roadnocht immorro Cú-Bretan mac Áengusa .i. rí Fer Rois.	NULL	cath_almaine_2
+12000057	Bádar Laigin trá ac fleadugad & ag ól an aidchi-sin.	NULL	cath_almaine_2
+12000058	Is ann-sin ad-bert Murchad mac Brain re h-áen dona sluagaib bádar isin tig teacht ar ceand cind duine isinn ármuig, & do-bérad secht cumala dontí noradad ri sin.	NULL	cath_almaine_2
+12000059	‘Radad-sa and’, ar áen-óclach amna d'feraib Muman.	NULL	cath_almaine_2
+12000060	Luid-sen amach & a errad catha & comlaind uime co rocht co h-airm a m-baí corp Fergail.	NULL	cath_almaine_2
+12000061	Amal baí, co cualai inní nechtair isinn áer ar ro-closs uili fris hé.	NULL	cath_almaine_2
+12000062	‘Timarnad dúib ó maig nime airfided bar tigerna do dénam anocht .i. Fergal mac Maíli-dúin; do-rochrabair uili in bar n-éicsib sunn aráen re bar tigerna .i. ri Feargal.’	NULL	cath_almaine_2
+12000063	Ro-chualadar immorro in ceol iar tain iter áes dána & cornairi & cusleanncha & cruitiri, co cuala immorro na ceola écsamla & ní cuala riam ná iarum ceol bud ferr; co cuala didiu in guth isin tup luacra; ba bindi in ceol í-sin anád ceola in domain.	NULL	cath_almaine_2
+12000064	int ócláech iar sin ina docum. ‘Ná tairr cucum’, ar in cenn fris; ‘cid ón cindus ataí’, ar int ócláech; ‘misi Donn Bó’, ar in ceand, ‘& ronaisced orm airfided dom thigerna anocht .i. do Fergal.	NULL	cath_almaine_2
+12000065	Ní do Murchad itir’, ar in ceand.	NULL	cath_almaine_2
+12000066	‘Cait Fergal fén’, ar ant óclach:	NULL	cath_almaine_2
+12000067	‘is é a chorp in taitneamach rit anall’, ar in ceand.	NULL	cath_almaine_2
+12000068	‘Cest’, ar int ócláech:	NULL	cath_almaine_2
+12000069	‘nod-bér lium’.	NULL	cath_almaine_2
+12000070	‘Is tú is deach lium nom-bera ar bith’, ar in ceand, ‘acht namá menum-berad Críst mac Dé’.	NULL	cath_almaine_2
+12000071	‘Dianom-bera’, ar in cend, ‘curam-tuca dorigisi com cholaind’.	NULL	cath_almaine_2
+12000072	‘Dot-bértar éigin’, ar int óclach.	NULL	cath_almaine_2
+12000073	Do-chuaid immorro int ócláech dia thig & in ceand lais.	NULL	cath_almaine_2
+12000074	‘An tucuis lat ní asan ármuig’, ar Murchad.	NULL	cath_almaine_2
+12000075	‘Tucus trá’, ar int ócláech; ‘tobair aran uaitni thall’, ar Murcad.	NULL	cath_almaine_2
+12000076	Do-rat in slóg uili aichni, arin ceand & ráidsead uli:	NULL	cath_almaine_2
+12000077	‘Nírb irsun duid a Duind Bó bith amlaid-sin.	NULL	cath_almaine_2
+12000078	Is tú is áilli & is fearr airfidid baí i n-Érinn’.	NULL	cath_almaine_2
+12000079	‘Maith’, ar in láech, das-bert a maig in ceand:	NULL	cath_almaine_2
+12000080	‘déna airfided dúind, a Duind Bó, fo dáig Meic Dé .i. Ísa Críst i n-deachaid gnúis.	NULL	cath_almaine_2
+12000081	Airfid Laigniu anocht feib roairfidis do thigerna ó chianaib’.	NULL	cath_almaine_2
+12000082	Impáis iarum a aiged re fraighidh in tigi ar dáig cumad dorcha dó & tócbais a chrúisich ós aird combo bindi cach ceol ar tuind talman.	NULL	cath_almaine_2
+12000083	Co mbádar in slóg uili ag caí & ac toirrsi ria truaigi & ri taidhiúiri in ciúil rochan.	NULL	cath_almaine_2
+12000084	In tan trá ba scíth in sluag ac toirrsi ac éstecht frisin ceol, luid int ócláech cétna lasin cend co riacht an corp.	NULL	cath_almaine_2
+12000085	‘Maith ém’, ar in ceann risin ógláech; ‘tuidmi mo cheand rim chorp’; córaigis didiu int ócláech in cend risin colaind & leanaid de fo cétóir; do comall bréithri Coluim Cille ón, air is é Colum Cille baí na slánaigecht fona techt i tuaig do-ridisi docum a máthar co roindised scéla in chatha & aiged Fergail di-si & do chách.	NULL	cath_almaine_2
+12000086	A nn-écmais dno Cathail meic Findgaine rofhersad Laigin in cath-sa Almaine, & rob olc ria Cathal in cath do cur ina aémais fén, & ad-cualadar Laigin grúg Cathail do beith riu, conad h-í comairli do-rónsad.	NULL	cath_almaine_2
+12000087	Ceann Fergail do breith co Cathal da commaídeam in gníma; rucad iar sin in ceand siar co Cathal, conad and-sin as-bert Rumand fili Fergail and so:	NULL	cath_almaine_2
+12000088	Robíth Fergal fer caín cnedmar, gríb glond galann; rogob óengol amal toraind ó tá Indsi Modh co Manaind.	NULL	cath_almaine_2
+12000089	Is and-sin didiu baí Cathal a n-Glendamain na ríg ac Sléb Chrot, & in slóg do-deochaid lasin ceand rotriallad a marbad la Cathal, uair ba h-olc lais díth Fergail dar ceand a shída.	NULL	cath_almaine_2
+12000090	Dofoilced rofigedh roslemanchírad do chind Fergail iar sin la Cathal & do-bretha bréid sróill uime iar sin, & do-bretha secht n-doim & secht muilt & secht tindi & siad uili fonaigthi ar bélaib cind Fergail; rohimdergad iar sin imon ceand a fiadnaisi fer Muman uili & dofoslaic a shúili ria Dia do altugad na h-airmiden & na h-anóra móiri-sin tucad dó.	NULL	cath_almaine_2
+12000091	Rofodlad iar sin la Cathal in biad-sin do bochtaib na cell comfhocus baí dóib .i. Áth Chros Mo-Laga & Tulach Min Molaga.	NULL	cath_almaine_2
+12000092	iar sin Cathal co n-gléri tinóil fer Muman les d'idnocol chind Fergail como-tarad fén d'Uíb Néill. co tarad rígi Úa Néill do Flaithbertach mac Áeda, & fácbais Cathal amlaid-sin iad & tánic co Gleandamain na ríg i cind cháectigis ar mís.	NULL	cath_almaine_2
+12000093	Is iar sin trá rofigh cocad mór i Laignib i n-agaid Cathail meic Findgune, & co rothinóil Cathal fir Muman les, & co n-deachaid a n-agaid Fáelán ríg Laigen co Laignib uili aráen ris & curter and-sin cath Féli iter Fáelán & Cathal, & do-cer Fáelcar; rí Osraidi and & brister an cath ar Laignib.	NULL	cath_almaine_2
+12000094	Imscarad Cathail & Laigin connuigi sin.	NULL	cath_almaine_2

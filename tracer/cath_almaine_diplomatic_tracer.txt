@@ -1,0 +1,147 @@
+14000001	Cath Almhaine idir Laigniu, & Ui Néill intertíd Decimbris ra cuiredh an cath-sa.	NULL	cath_almaine_diplomatic
+14000002	Cáuis an chatha-sa .i. an boromha ro mhaith Finnachta do Moling, atobhach d-Fergal, & issedón nara fuilngeador Laigin.	NULL	cath_almaine_diplomatic
+14000003	Nis tuccsat Laigin do Loingsech mac Aongusa, & ní tucsat do Congal Cinnmhaghair, cía ro fuilngettur mór dimnedh ó Congal, & ní moo dno robail doibh athabhairt d-Fergal, uair ro tairisnigh-siot i m-briathraibh Moling ra geall na bertha uatha tré bítha an boromha o Laignib.	NULL	cath_almaine_diplomatic
+14000004	Bá trom tra la Fergal sin .i. Laigin do nemhchomhall	NULL	cath_almaine_diplomatic
+14000005	angeallta fris, go ro fuacradh sluaigedh direcra dimór úadh for Leth Cuinn .i. for Eogan & for Conall, & for Airgiallaibh & Mídhe an cetramadh bliadain a flaitiusa féin, no itress bliadain déc, ut quibusdam placet, do thobhach na boromba.	NULL	cath_almaine_diplomatic
+14000006	Ba fada tra ro bhás og an tinól sain; uair assedh ad-beiredh gac fer do Leith Cuinn gus a roicheadh an fuaccra .i. dá t-tí Donnbó ar an sluaghadh raghad-sa.	NULL	cath_almaine_diplomatic
+14000007	Donnbó immorro mac baintreabtaighe eisidhe d-Feroibh Rois, agasní deachaidh lá na aidhchi a taigh a mathar imach ríamh, & ní raibhe in Eirinn uile budh caoímhe, no budh ferr cruth, no delbh, no denamh inás.	NULL	cath_almaine_diplomatic
+14000008	Ni rabha i n-Eirinn uile budh griubhdha, no budh segaine inás, & as uadh budh ferr rann espa, & risgéla for domhon.	NULL	cath_almaine_diplomatic
+14000009	Asé budh ferr do ghlés ech, & do indsma slegh, & d-fighe folt, & budh fer riaichni na einech de quo dicitur.	NULL	cath_almaine_diplomatic
+14000010	Aille macaibh Donnbo baidh, binne a laidhe luaidhid beoil, aine ogaibh Innsi Fáil, ra thogaibh tain trillsi a threóir.	NULL	cath_almaine_diplomatic
+14000011	Niar licc dno amathair Donnbo la Fergal go t-tuccadh Máol mac Failbhe, meic Erannain, meic Criomhthainn comarba Coluim Cille fria aisic beó, & go t-tuccsaidhe Colum Cille dno dia chionn go risedh Donnbo slán da taigh fein a crích Laigen.	NULL	cath_almaine_diplomatic
+14000012	Tocomla dno Fergal for séd.	NULL	cath_almaine_diplomatic
+14000013	Ra battur dna lucht eólais reimhe, nir bó maith an t-eólus do radsad dó.	NULL	cath_almaine_diplomatic
+14000014	ed ón iccumhgaibh gacha conaire & i n-aimhredhibh gacha conare, go rancuttur Cluain Dobail in-Almaine.	NULL	cath_almaine_diplomatic
+14000015	As ann buí Aodhan clamh Cluana Dobhail ara chinn.	NULL	cath_almaine_diplomatic
+14000016	Do ronsad dno na slúaigh micostadh .i. aaonbhó do marbadh & afuine ar bheraibh na fhiaghnaisi & athech do bhreith da chinn & a losccadh; Con-er-bert an clamh comba digal go bráth for Uibh Neill an digal do beradh an coimdidh farsin.	NULL	cath_almaine_diplomatic
+14000017	tainicc an clamh remhe go puball Fergail, & battur rioghradh Leithe Cuinn uile ara chinn sin phuball in-tan-sin.	NULL	cath_almaine_diplomatic
+14000018	Ro baoí an clamh ag acaoine a imnidh na f-fiaghnaisi, ní tainig cridhe neich dibh fair, acht cridhe Conbretan meic Congusa rí f-Fer Rois, & asedh onna ba h-aithrech do Coinbretan, uair ni terna rí do nech ro bhaoí isin phuball acht Cubreatan mac Oengusa aáonar asin chath.	NULL	cath_almaine_diplomatic
+14000019	Conadh ann ad-bert Cubretan:	NULL	cath_almaine_diplomatic
+14000020	Ad-ágar cath fordearg flaind a fhir Fhergaile adglionn badh bronaigh muintir Meic Maire ar m-breith an taighe dar cionn.	NULL	cath_almaine_diplomatic
+14000021	Bo an chlaimh ro gaod andeaghaid a daim, mairg laimh ra toll ambrad ar ní thimcomart mac Brain.	NULL	cath_almaine_diplomatic
+14000022	As andsin as-pert Fergal fria Donnbó; ‘déna airfidedh dúin a Doinnbó, fo bith as tú as deach airfididh fail i-n-Eirinn .i. i-cuisigh, agas i-cuislendoibh, & i-cruitibh, & randaibh, & raidsechoibh, & rigsgelaibh Eirenn, & isin madinsi imbarach do beramne cath do Laignib’.	NULL	cath_almaine_diplomatic
+14000023	‘Ac’ ar Donnbó ‘ní cumhgaim-si arfidedh dhuit-si anocht, & nimthá aongniomh dibh sin uile do taidbh-sin anocht, & cip-si áirm irabhai-si amarach, & imbeó-sa do dhén-sa airfidedh duit-si.	NULL	cath_almaine_diplomatic
+14000024	Dénadh immorro an rioghdruth ua Maighléine airfidedh dhuit anocht’.	NULL	cath_almaine_diplomatic
+14000025	Tugad ua Maighleni chuca iarttain.	NULL	cath_almaine_diplomatic
+14000026	Ro gabh-saidhe og indisin cath & comramha Leithe Cuinn, & Laigen, o thoghail Tuama Tenbath .i. Deanda Rígh in ra marbhadh Cobhtach Caolbhregh, conigi an-aimsir-sin, & ní bá mór codalta do rinnedh leó in-aidhchi sin rá méd egla leo Laigen, & la méid na doininne .i. uair aidhche fhéle Finniain gaimhridh sin.	NULL	cath_almaine_diplomatic
+14000027	Imthús Laigen do-lottur-saidhe i-Cruachán Claonta, dáigh ní mhaidh for Laigniu da n-dearnat acomairle ann, & gurob tíusad do chum an chatha.	NULL	cath_almaine_diplomatic
+14000028	Lottur iarsain go Dinn Canainn, a-saidhe do chum an chatha.	NULL	cath_almaine_diplomatic
+14000029	Con-rancuttur tra isin maidin ar na marach, na catha cechtardha, naoí míle do Laighnibh, míle ar fichit immorro do Leith Cuinn.	NULL	cath_almaine_diplomatic
+14000030	As crúaidh & as feochair racuiredh an cath-sa leith for leth, & ra ghabh cach na chomraicibh ann: Ra ba dimór rá innisi comrama na laoch Laigen, & laoch Leithe Cuinn.	NULL	cath_almaine_diplomatic
+14000031	As bert go f-facas Brighid ós cionn Laigen; ad ches dno Colum Cille ós cionn Ua Neill.	NULL	cath_almaine_diplomatic
+14000032	Ra mheamhuidh iaramh an cath ría Murchadh mhac m-Brain, & re n-Aodh Mend mac Colgan Rí Laigen Deasgabair.	NULL	cath_almaine_diplomatic
+14000033	Ra marbadh Feargal ann.	NULL	cath_almaine_diplomatic
+14000034	Aodh Mend, & Dunchadh mac Murchadha ro marbhsat Fergal fadesin, & Bile mac Bain Rí Alban, as uaidh ainmnighther Corr bile in Almaine.	NULL	cath_almaine_diplomatic
+14000035	Asé dno Aodh Mend ra marb Donnbó, ní torcair immorro Fergal go t-torchair Donnbó.	NULL	cath_almaine_diplomatic
+14000036	Ra marbadh dno sesca ar cet amhus indú sin.	NULL	cath_almaine_diplomatic
+14000037	A coimhlín féin ro-marbhaid Laighin san chath sin do Leit Cuinn .i. naoí míle; & naoí n-gelti dibh do thol for geltacht, & cét righ do righaibh.	NULL	cath_almaine_diplomatic
+14000038	Atá Cnoc Fergail annsin.	NULL	cath_almaine_diplomatic
+14000039	Ra chuirsiot Laigin ilaigh commaidmi and dno.	NULL	cath_almaine_diplomatic
+14000040	Unde:	NULL	cath_almaine_diplomatic
+14000041	Deodh laithe Almaine, ar cosnamh búair Breaghmaine, ro la badbh beldearg biorach, iolach imcenn f-Fergaile.	NULL	cath_almaine_diplomatic
+14000042	Scarais Murchadh ra midlaigh, brogais a triuna i-t-talmuin, do soí faobhar fria Fergal.	NULL	cath_almaine_diplomatic
+14000043	go f-fein dearmair des Almuin.	NULL	cath_almaine_diplomatic
+14000044	Bath ann cet ruirech rathach, cruadhach costadach carnach im naoí n-gelta gan míne. naoi mile fer n-armach.	NULL	cath_almaine_diplomatic
+14000045	Ceitri cet cabhsaidh a-Cruaich, las an amsaigh gaod san n-glíaidh latrí cedoibh Conaill cruaidh, asé.	NULL	cath_almaine_diplomatic
+14000046	Ra gabhadh annsain an druth ua Maighleine, & do radadh fair geim druith do dhénamh, & do rigne, bá már, & bá binn an gheim-sin, go mair geim ui Magleine ósin ale oc druthaibh Eirenn.	NULL	cath_almaine_diplomatic
+14000047	Ra gadadh achenn iarttain d-Fergal, & ra gadadh a cenn don drúth.	NULL	cath_almaine_diplomatic
+14000048	Ra baoi mac alla gheimi an druith sin aieor go cenn tri la & tri n-oidhche.	NULL	cath_almaine_diplomatic
+14000049	As de as-m-berar geim ui Maigleine og tafan na fer san monaidh.	NULL	cath_almaine_diplomatic
+14000050	Do luidh dno Aodh Laighen mac Fithcheallaigh Rí Ua Maine Connacht iráon madhma, & teichidh go n-epert fria macoibh: ‘Nacham faccbaidh a maca, budh ferde bur mathair friu mo-breith-si lib’; ‘Nit berad’ or Laighin.	NULL	cath_almaine_diplomatic
+14000051	Conadh annsin ro marbadh Aodh Laighen Rí Ua Maine.	NULL	cath_almaine_diplomatic
+14000052	Ra siachtattur immorro a meic Aodha Laighen im Aodh Alláin mac Fergaile go Lilcach airm a-m-buí.	NULL	cath_almaine_diplomatic
+14000053	Mo-dichu mac Amargin, & an Gall Craibhdheach.	NULL	cath_almaine_diplomatic
+14000054	Ni f-fuaramar ar talmain Almain badid-redithir ni rangamar iarsin cath Lilchach badid nemethar.	NULL	cath_almaine_diplomatic
+14000055	Ba buadhach tra an lá-sin do Laighnibh.	NULL	cath_almaine_diplomatic
+14000056	Ra h-anact immorro Cubretan mac Congusa Rí f-Fer Rois ar na runna do righne an-aidhche reimhe. Condail na riogh battur Laigin an-aidhchi-sin ag ól fína & medha ar c-cur an chatha go subhach soimhenmnach, & cách diobh ag innisin a chomramha, isíad medraig medarcaoin.	NULL	cath_almaine_diplomatic
+14000057	As andsin ra ráidh Murchadh mac Brain ‘Do berainn carpat cethre cumala, & mo ech, & merradh don láoch no raghadh isin n-ármach, & do béradh comhartha chugainn as’.	NULL	cath_almaine_diplomatic
+14000058	‘Ragad-sa’ ar Baothghalach laoch di Mumain.	NULL	cath_almaine_diplomatic
+14000059	Gebhidh achatherradh catha & comhlainn uime, go rainig go h-airm i-m-boí corp Fergaile, go c-cuala ní inesgairgaire isin aéor osa cinn con-d-epert. arclois uile, ‘timarnadh duibh ó righ Secht nimhe.	NULL	cath_almaine_diplomatic
+14000060	Denaidh airfidedh da bar t-tigerna a nocht .i. d-Fergal mac Maoleduin, cia do rocrapair sunn uile inbhar naoís dána eidir cuislendchu, & cornaire, & cruitire na tairmesccadh er fhúath, no éccomhnart sibh dairfidedh anocht d-Fergal’.	NULL	cath_almaine_diplomatic
+14000061	Go c-cuala iaramh an-t-oglach an cuisigh & an ceól sirechtach, go c-cúala dna san tum luachra bá nesa dhó an tórd fiansa bá binne ceólaibh.	NULL	cath_almaine_diplomatic
+14000062	Luidh an t-oglach na tocum; ‘na tair ar mamus’ ar an cenn fris.	NULL	cath_almaine_diplomatic
+14000063	‘Cesc cia thú?’ aran t-oglach.	NULL	cath_almaine_diplomatic
+14000064	‘Ni ansa misi cend Duinnhó’ ar an cenn, ‘& naidm ro naidmedh form aréir airfidedh an rí a nocht, & na erchoididh dhamh’.	NULL	cath_almaine_diplomatic
+14000065	‘Caidhe corp Fergail sunn?’ aran t-oglach.	NULL	cath_almaine_diplomatic
+14000066	‘As e do aithtne frit anall’.	NULL	cath_almaine_diplomatic
+14000067	‘Ceisc andad bér lem?’ aran t-oglach.	NULL	cath_almaine_diplomatic
+14000068	‘As tú as deach lim: nom bera’ ar an cenn; ‘acht ráth Crist dod chinn danom ruga, go d-tuga me ar amus mo colla do ridhisi’.	NULL	cath_almaine_diplomatic
+14000069	‘Do bér égin’ ar an t-óglaoch.	NULL	cath_almaine_diplomatic
+14000070	im-poi an-t-oglaoch & an cenn lais conige Condail, & fuair Laigniu ag ól ar a chenn sin aidhchi cetna.	NULL	cath_almaine_diplomatic
+14000071	‘An t-tugais comurtha lat?’ ar Murchadh, ‘tugas’ ar an t-oglac ‘cenn Dhuinnbó’.	NULL	cath_almaine_diplomatic
+14000072	‘Furim aran fhuaithne úd thall’ ar Murchadh.	NULL	cath_almaine_diplomatic
+14000073	Tugsat an sluagh uile aithne fair gur bé cenn Duinn bó, & asedh ra raidhsid uile:	NULL	cath_almaine_diplomatic
+14000074	‘Dirsan dhuit a Duinnbó, bá cáomh do dhealbh, déna airfidedh cluinn a nocht, febh do rignis dot-tigerna imbuarach’.	NULL	cath_almaine_diplomatic
+14000075	Impaighter a aighedh dno, & att-racht adord fiansa attruagh ar aird, go m-battur uile ag caoí, & ag tuirsi.	NULL	cath_almaine_diplomatic
+14000076	Idhnaicidh an láoch cetna an cenn do chum a cholla amal ro geall, & coirghidh é ar a mheidhe.	NULL	cath_almaine_diplomatic
+14000077	Cittracht, rainic Donnbó go tech a mathar.	NULL	cath_almaine_diplomatic
+14000078	Uair assíad tri ionganta an chathasa .i. Donnbó do rochtain na bhethaidh gonige a thech dar chenn brethre Coluim Cille, & géim an druith ui Maigleine tri la & tri h-aidhce san aéor, & na naoí míle do foruaislig an míle ar fhichit.	NULL	cath_almaine_diplomatic
+14000079	Unde dicitur:	NULL	cath_almaine_diplomatic
+14000080	Cath Almaine ard a n-gein mór an gniomh Decembeir, rom bris Murchadh morda crech.	NULL	cath_almaine_diplomatic
+14000081	mac Brain la laochraidh Laighnech Memhaidh ar Fergal Fail. armac Maoilidúin dermair.	NULL	cath_almaine_diplomatic
+14000082	gom eltis muille fo leircc. arlintibh fola fordercc.	NULL	cath_almaine_diplomatic
+14000083	Ocht righ ochtmoghad iar f-fior.	NULL	cath_almaine_diplomatic
+14000084	naoí míle gan imarriomh.	NULL	cath_almaine_diplomatic
+14000085	do Leith Cuinn comal n-gnaoi.	NULL	cath_almaine_diplomatic
+14000086	do rochair ann ar anchaoi.	NULL	cath_almaine_diplomatic
+14000087	Naoi n-geilte for gealtacht de.	NULL	cath_almaine_diplomatic
+14000088	lottur diobh for Fidh n-Gaibhle ra claoclaidhsit dath iarttain.	NULL	cath_almaine_diplomatic
+14000089	ara glethea Cath Almain.	NULL	cath_almaine_diplomatic
+14000090	Haec sunt nomina regum qui interfecti sunt in hoc bello.	NULL	cath_almaine_diplomatic
+14000091	Hi sunt quidem do Shíol Guinn.	NULL	cath_almaine_diplomatic
+14000092	Fergal mac Maoiliduin cum militibus suis.	NULL	cath_almaine_diplomatic
+14000093	Forbasach rí Bogaine.	NULL	cath_almaine_diplomatic
+14000094	Fergal ua Aithechdha.	NULL	cath_almaine_diplomatic
+14000095	Fergal ua Tamhnaigh.	NULL	cath_almaine_diplomatic
+14000096	Mac Eachach Lemhna.	NULL	cath_almaine_diplomatic
+14000097	Congalach mac Conaincc.	NULL	cath_almaine_diplomatic
+14000098	Eicnech mac Conaing.	NULL	cath_almaine_diplomatic
+14000099	Coibdeanach mac Fiachaidh.	NULL	cath_almaine_diplomatic
+14000100	Conall Cráu.	NULL	cath_almaine_diplomatic
+14000101	Fergas Glut.	NULL	cath_almaine_diplomatic
+14000102	Murghes mac Conaill.	NULL	cath_almaine_diplomatic
+14000103	Letaithech mac Concharat.	NULL	cath_almaine_diplomatic
+14000104	Anmcaidh mac Concarat.	NULL	cath_almaine_diplomatic
+14000105	Aedgein ua Maithe.	NULL	cath_almaine_diplomatic
+14000106	Nuada Uirc ri Guill, & Irgconuill.	NULL	cath_almaine_diplomatic
+14000107	Decem nepotes Maoilifitrigh.	NULL	cath_almaine_diplomatic
+14000108	Itesin righ Ua Neill an Tuaiscirt.	NULL	cath_almaine_diplomatic
+14000109	Hi autem qui sequuntur Ui Neill an Desgirt, Oilill mac Feradhaigh.	NULL	cath_almaine_diplomatic
+14000110	Suibhne mac Congalaig.	NULL	cath_almaine_diplomatic
+14000111	Aod Laigen ua Cernaigh.	NULL	cath_almaine_diplomatic
+14000112	Nia mac Cormaic.	NULL	cath_almaine_diplomatic
+14000113	Clothna mac Colgan.	NULL	cath_almaine_diplomatic
+14000114	Tadhg mac Aigthide.	NULL	cath_almaine_diplomatic
+14000115	Dubhdacrioch mac Duibhdhabairenn.	NULL	cath_almaine_diplomatic
+14000116	Mencossach mac Gamnaigh.	NULL	cath_almaine_diplomatic
+14000117	Elodhach mac Flainn ó Sgigi.	NULL	cath_almaine_diplomatic
+14000118	Dunchadh ua Fiacrach.	NULL	cath_almaine_diplomatic
+14000119	Mac Conloingsi.	NULL	cath_almaine_diplomatic
+14000120	Mac Maoile Móna.	NULL	cath_almaine_diplomatic
+14000121	Doiriadh mac Conla.	NULL	cath_almaine_diplomatic
+14000122	Flann mac Aodha Odhbha.	NULL	cath_almaine_diplomatic
+14000123	Mac Concoingelt.	NULL	cath_almaine_diplomatic
+14000124	Mac Tuathail meic Fáolchon.	NULL	cath_almaine_diplomatic
+14000125	Indrachtach mac Taidg.	NULL	cath_almaine_diplomatic
+14000126	Mac Garbhain.	NULL	cath_almaine_diplomatic
+14000127	Dá ua Maoilcháich.	NULL	cath_almaine_diplomatic
+14000128	Da mac Aileni.	NULL	cath_almaine_diplomatic
+14000129	Fócarta ua Domhnaill.	NULL	cath_almaine_diplomatic
+14000130	Ailill mac Conaill Graint.	NULL	cath_almaine_diplomatic
+14000131	Fidhgal mac Fithcheallaigh.	NULL	cath_almaine_diplomatic
+14000132	Duibdil ua Daimine & fratres ejus.	NULL	cath_almaine_diplomatic
+14000133	Da mac Muredhaigh meic Indreachtaigh.	NULL	cath_almaine_diplomatic
+14000134	Nuadha mac Duibh dunchuire.	NULL	cath_almaine_diplomatic
+14000135	Rechthapra ua Cumusccaigh.	NULL	cath_almaine_diplomatic
+14000136	Ua Maine cer cer cera.	NULL	cath_almaine_diplomatic
+14000137	Fergas ua Eogain.	NULL	cath_almaine_diplomatic
+14000138	no Leogain.	NULL	cath_almaine_diplomatic
+14000139	Flaitheamhail mac Dluthaigh.	NULL	cath_almaine_diplomatic
+14000140	Donghalach ua Aongasa.	NULL	cath_almaine_diplomatic
+14000141	Conall Menn rí ceneil Cairbre.	NULL	cath_almaine_diplomatic
+14000142	Mac Erca mac Maoilidúin.	NULL	cath_almaine_diplomatic
+14000143	Tri h-ui Nuadhat.	NULL	cath_almaine_diplomatic
+14000144	Flann mac Irgalaig.	NULL	cath_almaine_diplomatic
+14000145	Aod Laigen mac Fithcheallaigh.	NULL	cath_almaine_diplomatic
+14000146	Niall mac Muirgessa.	NULL	cath_almaine_diplomatic
+14000147	Dolore autem & frigore mortui sunt Tar eis Cath Almaine i-ttorchuir Fergal mac Maoilidúin.	NULL	cath_almaine_diplomatic
