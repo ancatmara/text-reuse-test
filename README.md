@@ -20,6 +20,9 @@
 
 `java -Xmx600m -Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml -jar tracer.jar > FILENAME.OUT`
 
+* Your data must be a single `.txt` file in `tracer/data/corpora/*some-folder*`
+* Check and update `tracer/conf/tracer_config.xml` before running
+
 ### Manual
 
 * [Download & installation](https://gfranzini.gitbooks.io/tracer/content/manual/download-and-installation.html)
