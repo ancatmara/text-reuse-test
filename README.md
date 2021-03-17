@@ -34,7 +34,7 @@
   * Comes with Java 11
   * Depends on Hadoop, which has native libraries that aren't supported in OS X → won’t run on a Mac
 
-**NB!** Build Passim with `sbt` before installing Apache-Spark. Spark comes with Java 11, which results in build conflicts when you are compiling Passim with `sbt`.
+**NB!** Build Passim with `sbt` before installing Apache Spark. Spark comes with Java 11, which results in build conflicts when you are compiling Passim with `sbt`.
 
 ### Download & compilation
 
@@ -47,4 +47,4 @@
 This should produce a runnable .jar in `target/scala_*/passim*.jar`.
 
 ### Docs
-[GitHb repo](https://github.com/dasmiq/passim)
+[GitHub repo](https://github.com/dasmiq/passim)
