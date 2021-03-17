@@ -32,7 +32,7 @@
 * Sbt ( a build tool for JVM languages).
 * Apache-Spark
   * Comes with Java 11
-  * Depends on Hadoop, which has native libraries not supported in OS X → won’t run on a Mac
+  * Depends on Hadoop, which has native libraries that aren't supported in OS X → won’t run on a Mac
 
 **NB!** Build Passim with `sbt` before installing Apache-Spark. Spark comes with Java 11, which results in build conflicts when you are compiling Passim with `sbt`.
 
