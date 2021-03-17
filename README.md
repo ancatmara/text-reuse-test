@@ -16,6 +16,10 @@
 
 `ant`
 
+### Running
+
+`java -Xmx600m -Deu.etrap.medusa.config.ClassConfig=conf/tracer_config.xml -jar tracer.jar > FILENAME.OUT`
+
 ### Manual
 
 * [Download & installation](https://gfranzini.gitbooks.io/tracer/content/manual/download-and-installation.html)
@@ -45,6 +49,10 @@
 `build/sbt package`
 
 This should produce a runnable .jar in `target/scala_*/passim*.jar`.
+
+### Running
+
+`passim "{input.json,directory-of-json-files,some*.json.bz2}" output`
 
 ### Docs
 [GitHub repo](https://github.com/dasmiq/passim)
