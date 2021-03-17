@@ -4,15 +4,88 @@ Starting Tracer ...
 ConfigurationContainer: saving configuration to data/corpora/cath_almaine/cath_almaine_tracer.txt.conf
 Using FRAMEWORK_IMPL=eu.etrap.tracer.DefaultFrameWorkImpl
 ORIGINAL_CORPUS=data/corpora/cath_almaine/cath_almaine_tracer.txt
+Inverted positional list data/corpora/cath_almaine/cath_almaine_tracer.txt.inv is already computed.
+
+
+String similarity file data/corpora/cath_almaine/cath_almaine_tracer.txt.ssim is already computed.
+
+
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.char is already computed.
+
+Creating a set of letter n-grams ...
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.02gram is already computed.
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.03gram is already computed.
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.04gram is already computed.
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.05gram is already computed.
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.06gram is already computed.
+Character distribution file data/corpora/cath_almaine/cath_almaine_tracer.txt.tok.dist.letter.07gram is already computed.
+
+Generation of letter n-grams finished.
+
+
+
+
+
+START TO PROCESS LEVEL 1 (PRE-PROCESSING)
+
+Using implementation eu.etrap.tracer.preprocessing.WordLevelPreprocessingImpl for preprocessing.
+Storing data in foler data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5
+Preprocessing infile=data/corpora/cath_almaine/cath_almaine_tracer.txt.tok to outfile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep
+Start pre-processing ...
+strLevelMetaInformationFileName=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.meta
+Writing meta file to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.meta
+Preprocessing finished.
+
+
 Generating positional inverted list ...
-Processing corpus: data/corpora/cath_almaine/cath_almaine_tracer.txt with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
-Checking whether sentence file is tokenized: data/corpora/cath_almaine/cath_almaine_tracer.txt.tok
-Checking whether word numbers were computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.internal.wn
-Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/cath_almaine/cath_almaine_tracer.txt.wswn
-Checking whether word numbers complete file is created: data/corpora/cath_almaine/cath_almaine_tracer.txt.wnc
-Checking whether idx file was computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.sidx
-Checking whether bow word frequencies was computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.internal.wf.bow
-Checking whether hash file was filled already in file data/corpora/cath_almaine/cath_almaine_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+Processing corpus: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 65 ms]
+
+
+Checking whether word numbers were computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.src
+
+word numbers generated. [elapsed time: 76 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wswn
+Transforming word numbers ...
+Reading known numbers: data/wordlists/100-wn-all.txt
+wswn generated. [elapsed time: 32 ms]
+
+
+Checking whether word numbers complete file is created: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 6 ms]
+
+
+Checking whether idx file was computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.src
+
+First 2366 of 2366 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 65 ms]
+
+
+Checking whether bow word frequencies was computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 114 ms]
+
+
+Checking whether hash file was filled already in file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
 using DEFAULT free mem: 15728640
 
 
@@ -37,28 +110,189 @@ intSizeOfDataSetDiscHash	:             5
 MEDUSA'S HASH CONFIGURATION
 BLOCKS 				:        65,536
 BLOCK_SIZE			:         8,192
-intDataSetsPerBucket		:         1,169
+intDataSetsPerBucket		:         2,166
 
 MEMORY USAGE
-array hash size 		:             0
-ram hash size			:   766,246,912
-free mem			:   271,712,256
-total				: 1,037,959,168 (989.0 MB)
+array hash size 		:             0 (disabled)
+ram hash size			: 1,419,640,832
+free mem			:   489,291,776
+total				: 1,908,932,608 (1820.0 MB)
 
 
 
 
 RESERVED HASH ADRESSES
-array hash			:             0
-ram hash			:    76,611,584
-total				:    76,611,584
+array hash			:             0 (disabled)
+ram hash			:   141,950,976
+total				:   141,950,976
 
 
 Creating filter component ...
-stopword file: /home/ancatmara/tracer/data/stopwords/no-stopwords.txt
-ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /home/ancatmara/tracer/data/stopwords/no-stopwords.txt
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
 WordlistFilterComponentImpl disabled...
-filter component is written. [elapsed time: 392 ms]
+filter component is written. [elapsed time: 59 ms]
 
 
 Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 1 s 33 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+ after 1400 ms finshed.
+
+
+Opening swap files
+Try to open "data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+merge time: 2 s
+
+Processing finished. [elapsed time: 3 s 53 ms]
+
+
+Checking whether export file was filled already in file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.inv
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.PositionalInvertedListFlatFileExporterImpl
+Export finished. [elapsed time: 88 ms]
+
+
+Positional inverted list created.
+
+END OF PROCESS LEVEL 1 (PRE-PROCESSING)
+
+
+
+START TO PROCESS LEVEL 2 (TRAINING)
+
+Using implementation eu.etrap.tracer.featuring.semantic.WordBasedTrainingImpl for training.
+Training from infile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep to outdir=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train
+Generating positional inverted list ...
+Processing corpus: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.tok
+Checking whether word numbers were computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.internal.wn
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wswn
+Checking whether word numbers complete file is created: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wnc
+Checking whether idx file was computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.sidx
+Checking whether bow word frequencies was computed already in file: data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.internal.wf.bow
+Checking whether hash file was filled already in file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+Checking whether export file was filled already in file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.PositionalInvertedListFlatFileExporterImpl
+Export finished. [elapsed time: 83 ms]
+
+
+Positional inverted list created ...
+
+Writing feats file from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wnc to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.feats
+Copy from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.wnc to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.feats
+Feats file finally written.
+
+Writing fmap file  data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.fmap by using data from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.lgl2.expo
+Copy from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.lgl2.expo to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.fmap
+fmap file written.
+
+Writing train file  data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.fmap by using data from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.lgl2.expo
+Copy from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/cath_almaine_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.lgl2.expo to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train
+Train file written.
+
+Writing meta file to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.meta
+
+END OF PROCESS LEVEL 2 (TRAINING)
+
+
+
+START TO PROCESS LEVEL 3 (SELECTION)
+
+1 of 1 configured selection implementations need to be excecuted. 0 selection strategies are already pre-computed.
+
+Using 1 implementation(s) eu.etrap.tracer.selection.localglobal.LocalMaxFeatureFrequencySelectorImpl for selection.
+Selection done from infile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train to outdir=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/cath_almaine_tracer.sel
+Weighting features for 1 selection strategies.
+[1/1]: Computing features weights for selection strategies eu.etrap.tracer.selection.localglobal.LocalMaxFeatureFrequencySelectorImpl
+	Sorting file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train ... DONE.
+	Reading train file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train
+	Global feature distribution stored by key GlobalFeatureFrequencyDistribution
+	Feature IDs range from 101 to 2466.
+	Weighting features by word frequency ...
+	Loading feature weights from file data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/cath_almaine_tracer.train.wordfreq.asc.sorted ... DONE! 2366 feature weights loaded.
+	5009 feature tokens are selected out of 6280 by a configured feature density of 0.798 (configured: 0.8).
+	Writing meta information ... DONE!
+[1/1]: DONE.
+
+
+Creating multiple selection for ... 
+	[1/1]: Still 5009 selected features after processing data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/01-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/cath_almaine_tracer.sel
+Writing final selection file to data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/cath_almaine_tracer.sel ...DONE!
+	Writing meta information ... DONE!
+
+END OF PROCESS LEVEL 3 (SELECTION)
+
+
+
+START TO PROCESS LEVEL 4 (LINKING)
+
+Using eu.etrap.tracer.linking.IntraCorpusLinkingImpl implementation  for linking.
+OUTPUT file is outfile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/cath_almaine_tracer-cath_almaine_tracer.link ... 
+	Preparing RUID2Feature connector by implementation in eu.etrap.tracer.linking.connector.ram.RUID2FeatureRAMConnectorImpl
+	DONE!
+
+	Preparing Feature2RUID connector by implementation in eu.etrap.tracer.linking.connector.ram.Feature2RUIDRAMConnectorImpl
+	DONE!
+
+	Linking process started for 448 fingerprinted re-use units
+		448 re-use units processed. 100% DONE!
+	DONE!!
+
+END OF PROCESS LEVEL 4 (LINKING)
+
+
+
+START TO PROCESS LEVEL 5 (SCORING)
+
+Using eu.etrap.tracer.scoring.feature.selected.symmetric.SelectedFeatureResemblanceSimilarityImpl implementation  for scoring.
+OUTPUT file is outfile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/cath_almaine_tracer-cath_almaine_tracer.score ... 
+	Preparing data from data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/cath_almaine_tracer.sel ...
+	Scoring data 
+		FROM data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/cath_almaine_tracer-cath_almaine_tracer.link ...
+		TO data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/cath_almaine_tracer-cath_almaine_tracer.score ...
+
+	DONE!!
+
+END OF PROCESS LEVEL 5 (SCORING)
+
+
+
+START TO PROCESS LEVEL 6 (POSTPROCESING)
+
+Using eu.etrap.tracer.postprocessing.traviz.TraVizPostprocessingImpl implementation  for postprocessing.
+OUTPUT file is outfile=data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/001-TraVizPostprocessingImpl-mode=1_minfrequency=2/cath_almaine_tracer-cath_almaine_tracer.pproc ... 
+Corpus file name         : data/corpora/cath_almaine/cath_almaine_tracer.txt
+TRACER's score file name : data/corpora/cath_almaine/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_false_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-cath_almaine_tracer-01-01-01-02-cath_almaine_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/cath_almaine_tracer-cath_almaine_tracer.score
+TRV mode                 : 1
+Minimum frequency        : 2
+	DONE!!
+
+END OF PROCESS LEVEL 6 (POSTPROCESSING)
+
+
+
