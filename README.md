@@ -3,8 +3,8 @@
 ### System requirements
 
 * Any OS (Windows/OS X/Linux)
-* Java 8 (not higher!)
-* Apache Ant (a build tool). 
+* Java 8 — not higher!
+* Apache Ant (a build tool)
 
 **NB!** Only use `ant` command when compiling Tracer, any flags (like `verbose`) will later result in *“Unable to access jarfile”* error. 
 
@@ -27,10 +27,10 @@
 
 ### Requirements
 
-* Java 8 (not higher!)
+* Java 8 — not higher!
 * Scala
-* Sbt ( a build tool for JVM languages).
-* Apache-Spark
+* Sbt ( a build tool for JVM languages)
+* Apache Spark
   * Comes with Java 11
   * Depends on Hadoop, which has native libraries that aren't supported in OS X → won’t run on a Mac
 
