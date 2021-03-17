@@ -14,11 +14,11 @@
         <property name="SCORING_IMPL" value="eu.etrap.tracer.scoring.feature.selected.symmetric.SelectedFeatureResemblanceSimilarityImpl"/>
         <property name="POSTPROCESSING_IMPL" value="eu.etrap.tracer.postprocessing.traviz.TraVizPostprocessingImpl"/>
 
-        <property name="SENTENCE_FILE_NAME" value="data/corpora/cath_almaine/cath_almain_tracer.txt" />
+        <property name="SENTENCE_FILE_NAME" value="data/corpora/cath_almaine/cath_almaine_tracer.txt" />
         <!-- <property name="BASEFORM_FILE_NAME" value="data/corpora/Bible/Bible.lemma" /> -->
         <!-- <property name="SYNONYMS_FILE_NAME" value="data/corpora/Bible/Bible.syns" /> -->
 
-        <!-- <property name="TOKENISATION_CHARACTERS_FILE_NAME" value="data/wordlists/100-wn-all.txt" /> -->
+<property name="TOKENISATION_CHARACTERS_FILE_NAME" value="data/wordlists/100-wn-all.txt" />
         <!-- <property name="LETTER_SHAVER_MAPPING_FILE_NAME" value="data/letter-mappings/arabic.txt" /> -->
 
 

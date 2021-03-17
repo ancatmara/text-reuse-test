@@ -1,0 +1,64 @@
+Starting Tracer ...
+
+
+ConfigurationContainer: saving configuration to data/corpora/cath_almaine/cath_almaine_tracer.txt.conf
+Using FRAMEWORK_IMPL=eu.etrap.tracer.DefaultFrameWorkImpl
+ORIGINAL_CORPUS=data/corpora/cath_almaine/cath_almaine_tracer.txt
+Generating positional inverted list ...
+Processing corpus: data/corpora/cath_almaine/cath_almaine_tracer.txt with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/cath_almaine/cath_almaine_tracer.txt.tok
+Checking whether word numbers were computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.internal.wn
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/cath_almaine/cath_almaine_tracer.txt.wswn
+Checking whether word numbers complete file is created: data/corpora/cath_almaine/cath_almaine_tracer.txt.wnc
+Checking whether idx file was computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.sidx
+Checking whether bow word frequencies was computed already in file: data/corpora/cath_almaine/cath_almaine_tracer.txt.internal.wf.bow
+Checking whether hash file was filled already in file data/corpora/cath_almaine/cath_almaine_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+using DEFAULT free mem: 15728640
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.PositionalInvertedListMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intSizeOfSentenceNumber		:             4
+intSizeOfPosition		:             3
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetRAMHash		:            10
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intDataSetsPerBucket		:         1,169
+
+MEMORY USAGE
+array hash size 		:             0
+ram hash size			:   766,246,912
+free mem			:   271,712,256
+total				: 1,037,959,168 (989.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0
+ram hash			:    76,611,584
+total				:    76,611,584
+
+
+Creating filter component ...
+stopword file: /home/ancatmara/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /home/ancatmara/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 392 ms]
+
+
+Loading parser ...
