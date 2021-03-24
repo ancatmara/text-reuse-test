@@ -29,6 +29,7 @@
 * [Troubleshooting](https://gfranzini.gitbooks.io/tracer/content/support/troubleshooting/)
 * [Data format](https://gfranzini.gitbooks.io/tracer/content/manual/corpus-preparation.html)
 * [Configuration](https://gfranzini.gitbooks.io/tracer/content/manual/configuration/)
+* [Output](https://gfranzini.gitbooks.io/tracer/content/manual/results-and-computed-files.html)
 
 ## Passim
 
