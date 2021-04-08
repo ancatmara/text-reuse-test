@@ -1,1 +1,0 @@
-var texts = [{"min":11000001,"max":11000136,"title":"cath_almaine_1"},{"min":12000001,"max":12000094,"title":"cath_almaine_2"},{"min":13000001,"max":13000071,"title":"cath_almaine_3"},{"min":14000001,"max":14000147,"title":"cath_almaine_diplomatic"}];
