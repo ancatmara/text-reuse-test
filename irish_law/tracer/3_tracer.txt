@@ -1,0 +1,139 @@
+13000001	int ap tic fo coraib _i_ ar aird.	NULL	3
+13000002	_i_ int athair tic fo coraib, cid gor cid ingor, ciramota in mac srcrleicthi.	NULL	3
+13000003	s_i_ do beth ar aird.	NULL	3
+13000004	_i_ co rath _i_ fer oiwmit.	NULL	3
+13000005	_i_ ce rath _i_ in ben mer _i_ in adaltrach cen clainra _i_ acht o.ipr.	NULL	3
+13000006	cuic curu foceird sec a fer ata core _i_ astaithr na cuir cuiris nech co coir o belaii uih cena, a is e cuit in olchena uair cuir dligthecia romazrara.	NULL	3
+13000007	_i_	 ama;	NULL	3
+13000008	doroaitniged adam d’fastarf ina diupairt co deimin _i_ derg each no;	NULL	3
+13000009	each nindligerf.	NULL	3
+13000010	i derg each nos;	NULL	3
+13000011	deolairf.	NULL	3
+13000012	_i_ doeiplestar in bith uili arin renabailb, aran ren dora ubull i arin sen bdon abaillb imar gabustar eba eill i imar gabszarc eill eba.	NULL	3
+13000013	atat _iiii_ sabaid tuaithe nodadesruithethar i mbecaib.	NULL	3
+13000014	rig gubrethach epscop tuislech.	NULL	3
+13000015	file diubartach.	NULL	3
+13000016	aire eisindraic nad oiget a mamu ni dlegaither doib dire	NULL	3
+13000017	_i_ ceitri apaid iat _l_ _iiii_ triun.	NULL	3
+13000018	_i_ ceitri apaid iat na disruigend so _l_ na deroligend.	NULL	3
+13000019	_l_ co nderraat so;	NULL	3
+13000020	_l_ a _iiii_ _l_ co ndernat so isin tuaith in rig, a letheneclann esbus uada dia nderna maith dia tochus;	NULL	3
+13000021	uile _im_ esbus on filid _&_ on espoc cia dogniat maith dia tochuss.	NULL	3
+13000022	_i_ i mbecaib co mbit iter becaib de _i_ bec na rei iarsa ndenat sin, _l_ is bec na neichi triasa ta doib sin _i_ fora ceiliu _i_ beires bretha gua;	NULL	3
+13000023	cid im lu cid im cleithi, is commor doni eisinnraic de.	NULL	3
+13000024	_i_ i mbreithir.	NULL	3
+13000025	_i_ toaisledach, a dae a gae foi co hisel oc adaltras;	NULL	3
+13000026	_l_ a dae, a olc, nonisligenn _i_ tuislind i ndae, i nolc.	NULL	3
+13000027	_i_ urain-epertach, beires diubairt _i_ adbal-eibertach _i_ cuingis ni _i_ cipe dib doni gait _&_ brait _i_ graid flatha _i_ as a innracas _i_ inti dib-sin na comoigenn a momamugud _l_ a greim dliges, noca dligenn se eneclainn.	NULL	3
+13000028	_i_ _lca_ dliginn dire eneclainni do co comlan in mama nodoigh.	NULL	3
+13000029	di _iiii_ slicht athgabala.	NULL	3
+13000030	teora ferba fira dosnacht asal ar mug mac nuadat gabail co toxal co foetar aidchi fertai for boind asluiset nuadaib facubsat a laegu laith find for tellraig etha a niarair.	NULL	3
+13000031	delechaib treibi ar toidriuch.	NULL	3
+13000032	gellta dib iarum coirpre ngnathchor di gabail di athgabail.	NULL	3
+13000033	di detiu di chomdetiu di aircsiu di aititiu.	NULL	3
+13000034		NULL	3
+13000035	_i_ teora bai iar fir romoichestar no romainestar asal mac cuind feinneda, aithech tfortha ri temrach, for mug mac nuadat, aithech fortha cooirpri ngnathcuir, no aithech forta cuinn _c_ catha _i_ athgabail ecinntech risa sailter tiachain re dlig.	NULL	3
+13000036	_i_ teoru ferba rodlom eochu rena mbuas, _&_ ni ris do inic meonacha	NULL	3
+13000037	_i_ finda.	NULL	3
+13000038	_i_ teora ba blechta _i_ ba fir a mbeith co suth._i_ na hathgabala _i_ amach _i_ ba druim fri lias laegh ann sin _i_ co rofesetar for ferta feig for bru boinne frisa raiter craeb patraic isin tan-sa _i_ roelasatar uaithib _i_ la mug mac nuadat _i_ rob e tucait a nelaidi _i_ isin lo fintaithnemach for tullrech in talman, _l_ for tul dreiche in talman _i_ donni is tellus ar talam.	NULL	3
+13000039	_i_ as na mbo iarsa talmain.	NULL	3
+13000040	_i_ docuatar co hada _l_ co haith da niarraid, _l_ doetad uaithib dul da niarraid.	NULL	3
+13000041	_i_ co tucustar se sui gin amlacha lais co treib ar tae diriuch na maitni, _l_ ar deirg-tairic na maitne _i_ se sinechaib _i_ tres vocarum tres vocarum tremaram secundarum tres ap prem _i_ tuidruch lai _&_ aidchi, _l_ tuithruch suilsi.	NULL	3
+13000042	_i_ gellta dib iarum la coirpri ngnathcoir, _i_ ri uladh, dagnathaiged coir _l_ do daingnideth coir _i_ tucad dliged tara cenn _i_ iarna gabail.	NULL	3
+13000043	_i_ na teora mbo _i_ na _ui_ mbo _i_ aitherrach gabala.	NULL	3
+13000044	_s_ ma robi ardarc dligid ann is ed-sin dorala and;	NULL	3
+13000045	munna raib ardarc dligid ann, is elud roleiced imna tri _c_ buaib, _&_ diablad iar nelod, na se ba _i_ isi-sin _c_ uair rogaba athgabail i nere.	NULL	3
+13000046	_i_ re re fergusa _l_ la athair _i_ oenfir.	NULL	3
+13000047	_i_ re re coirpri gnathcair _l_ la senathair _i_ o feinib temrach _i_ fri aimsir da flatheman.	NULL	3
+13000048	_i_ fri re cuind _i_ re re concubair gnathchar _i_ fri re nasail.	NULL	3
+13000049	_i_ aititiu anfiss ind so.	NULL	3
+13000050	_i_ detiu _&_ aititiu _&_ comditiu tair fri re trir, aircsiu nama aniar detiu aenfir _&_ aititiu deisi _&_ comdeitiu trir;	NULL	3
+13000051	is e re robui in ferand amuig _i_ la triar re rudartha dorime sund _i_ _uii_ fichiat bliadan robui in tir fo ultaid o bui fergus conid tainic coirpri ngnathcor rogell in athgabail-so.	NULL	3
+13000052	tir ba chuind cetchoraig.	NULL	3
+13000053	asa ngabaid ilbenda berta fergus ferglethech.	NULL	3
+13000054	i ndigail a thromgreisi.	NULL	3
+13000055	di cuin echach belbuide bretha dorn i nansaire	NULL	3
+13000056	_i_ is uime robai in caingin.	NULL	3
+13000057	_i_ tir roboi acu cunn risar muig, _c_ cath _l_ co tucad do fergus e ina ninech.	NULL	3
+13000058	_i_ ainm in tire.	NULL	3
+13000059	_i_ is as-sin dogabustar benna ilarda na hathgabala _i_ dobreithemnaiged so d’fergus, donid gliada fergus dogeltis a ech fer _i_ fergliathach _i_ is forainm do _i_ i ndigail na greise truime tucad ara enech: eochu belbuide do marbad ara comairce.	NULL	3
+13000060	_i_ i neiric in grista truim.	NULL	3
+13000061	_i_ a saraigthe.	NULL	3
+13000062	_i_ do guin belbuide mac feidlime meic tuathail techtmair, _&_ braithair cuind eiside.	NULL	3
+13000063	_i_ cin tsairi fri himcomus cinaid a mic.	NULL	3
+13000064	_i_ dobreithemnaiged dorn ingen buide meic ainmiri;	NULL	3
+13000065	an fo diultad, conach a saire _s_ a ndaire;	NULL	3
+13000066	_l_ an fo diuitad, conach a ndaire _s_ a ngill tucad do fergus _i_ a cinaid a meic foitline, in _ui_ ed fer robui oc marbad fer i miachtar in craind _&_ lon fora gualain ndeis _&_ findlestar numa fora laimh in cli, os e co nusce, _&_ he brecc bedcach and, _&_ dam allaith fo bun in craind;	NULL	3
+13000067	_&_ ba he abras ind fir teinm cno, _&_ dobeiridh leth nairne na cno don lun nobith fora gualaind ndeis, noithed feisin a lleth naiil;	NULL	3
+13000068	_&_ doicsed a uball isin lestar numa bui fora laimh cli _&_ _l_randa i nde, _&_ docuireth a leth don dam allaid bui fo bun in craind, noithad-som iarom in leth naill;	NULL	3
+13000069	_&_ noibed loim fair den uisce isin lestar huma bui fora laim combo comol do frisin niich _&_ an oss _&_ in lon;	NULL	3
+13000070	friscoamarcar di a muinter do finn ciabo he hisin crunn, ar nin athgentar-som daigh celtair diclithe bui imbe.	NULL	3
+13000071	is de dobert finn a hordain ina beolo;	NULL	3
+13000072	a ddonichas eisib a frithisi, fortnosna a imbus, _&_ dichan dicetal co neipert.	NULL	3
+13000073	‘con fri lon lethcnó co tethain co tich i ndithraib dercc corra comol fri hich niba filliud fabaill a uball fin mblais cona fri carbaith mac ui co dedail daigre;	NULL	3
+13000074	dercc corra mac hui daighre’, olse, 'fil isan crund’.	NULL	3
+13000075	dorenar _c_aib _i_ da _c_ fer a mbesa moga leis _&_ da _c_ cach cethra, is eisib dorenar;	NULL	3
+13000076	ailiter _c_ cach dine de cach cenel cethra lais, is and is briugu _c_ach.	NULL	3
+13000077	caire ainsig _i_ caire dlegar do briugaid do beth occo for ten do gres ar cind cach tascair dodnicc cidh ani cairi _i_ caire anaisicc, ar ani doberr inn do-aisicc ass i noighe, no legaid hi cach caire olchena;	NULL	3
+13000078	ar cia mbeth a mbiadh ann-som co ti dam, nicon raga muda;	NULL	3
+13000079	nicon fuirgebtar and di bruirhin _s_ ni arim ruirfed in dam;	NULL	3
+13000080	conid as rogabad a biad coir do cach, amail rogab laarg do rig _&_ do espuc _&_ suith, colptha ogthigerna, cuinn araid, les rigna, crochit fresabrat rig no tanaisi airchinnigh rig, muc formuin crota, no croichnec maol cornairi, no cenn cnama fa segoine, no melgetan rigdruith.	NULL	3
+13000081	ailiter caire ainsic _i_ aisic áin, no ainsic _i_ ainscuiche no ditaisic inni bronnus mana beth nech fo chinaid _&rl_	NULL	3
+13000082	_l_ ailiter cairi ainsic: anscuiche asin ait i mbi _i_ a naisices;	NULL	3
+13000083	no cairi aisic _i_ taisic ass an dobreth in uile, _&_ ni teit muda an cia beth co cend mbliadna inn la fir indi isa caire	NULL	3
+13000084	cona tochus, _t_ _i_ ama scarat tri aige bruithe ann, a damu no a boin cona timtug di saill no carnai;	NULL	3
+13000085	cid armad beod nama nobeth and ni, fo bith na tegad leo-som a dam na tascar tar da fer _x_ maith do ulc _i_ diri mor do persain deroil.	NULL	3
+13000086	olc do maith _i_ diri mbec do persann uaisle	NULL	3
+13000087	fuaslugud _c_ mbel _i_ a sena _&_ a nemaitidiu cona beth, cib innus fouaslaicter _i_ ar ecin	NULL	3
+13000088	astaid caich i coraib _&rl_ _i_ isin.	NULL	3
+13000089	_u_ ed lebur no chain corus besccna _i_ no tairisim do cach dib isin cor rola o belaib _i_ in mac ocin aiti, na da chele ocna flaithiph, in ben ocin fear.	NULL	3
+13000090	adbath in bith _i_ ar idbath ann-som huiletaid toraid parrdais _&_ fora sil co brath.	NULL	3
+13000091	i mbailiud _i_ i mbo-elud, no bailiud _i_ bel-ud _i_ soud mbel.	NULL	3
+13000092	argairet recuairt.	NULL	3
+13000093	_d_ _i_ argairet in teidi-so;	NULL	3
+13000094	tuaralia _i_ imbeth.	NULL	3
+13000095	no i mbecaib _i_ gnimaib olcaib;	NULL	3
+13000096	ar dleagar do rig firinne, dlegar do.	NULL	3
+13000097	espuc enngus, dleagar do filid idhnai, dlegar do airig indracus;	NULL	3
+13000098	_l_ i mbecreib _i_ ar gairdi na rei na datith a riget	NULL	3
+13000099	teoru fearba fira _i_ teoru bai blichta, air bith fir mblicht _i_ bo, bith do fir.	NULL	3
+13000100	_i_ finn;	NULL	3
+13000101	teora bai fira _i_ _iii_ a bai finda, amail isbeir fachtna firbrethach fordaimidair tri dirna di argut arru ar teoru fira ferbai fon aen neiric necosc etar laith lughbai lii sula sochar _i_ domidair fachtna tri dirnai di argut ar _iii_ a bu finna oderg fo cosmailius nera _iii_ a nerc muchna.	NULL	3
+13000102	teora bai in sin dotegdis for ingelt a hairdigthe echbeoil a halba a crich dail riatai co mbidis hi saibniu ulu.	NULL	3
+13000103	tosuch cuirui mac daire ar ultaib _&rl_ laith _i_ med screiplaig.	NULL	3
+13000104	lugbai _i_ ain cerdae;	NULL	3
+13000105	bith trath ferb bo, amail asindubartmar, ut dixit coirbri mac eithne isin air dorigne do bres mac eladan meic delbaith;	NULL	3
+13000106	isi in air: cin cholt for crip cirniniu _&rl_ bidh da ferb _i_ bolg docuiredar for gruaid neich iarna air no nech nobered gubreith no naaerad etechta _i_ bolg derg _&_ bolg glas _&_ bolg corccrae, it he a nanmanna on _&_ ainim _&_ esbuith, amail isberar gel fir ferba _&rl_.	NULL	3
+13000107	bidh do fearb _i_ briathar, amail isberar: rofes is fas fenechus i condelg ferb nde	NULL	3
+13000108	mud mac nuadat, athech fortha in sin buidh fo cinaid ri huladh;	NULL	3
+13000109	is de-sin berar linne andiu na timairged cinta aithech righ na airech, _s_ bid aithech foratha, ata aithech immeluadatar ina cintaib.	NULL	3
+13000110	co tochsul _i_ cona tabairt ass fo _c_oir cen cert.	NULL	3
+13000111	fertai for boinn _i_ dognithe ferta impu for bru boinne andes	NULL	3
+13000112	facbast a laeghu _i_ la mug.	NULL	3
+13000113	laithe _i_ suth _i_ as.	NULL	3
+13000114	for tellug _i_ for talmuin _i_ oni is tellus, no tellurris.	NULL	3
+13000115	etna a niarair _i_ luid asal ina ndiaidh.	NULL	3
+13000116	co taicht _i_ co tachta, se delchaib _i_ se lilacaib;	NULL	3
+13000117	_i_ del _i_ sine	NULL	3
+13000118	treib _i_ o dorus tighe nuadat.	NULL	3
+13000119	a tuidriucht _i_ maidin moch.	NULL	3
+13000120	coirpri _i_ ri ulad son rodgab imdegail fergusa.	NULL	3
+13000121	di gabail _i_ na tri _c_ba.	NULL	3
+13000122	di athgabail _i_ na _ui_ ba.	NULL	3
+13000123	athgabail, aithirriuch gabail.	NULL	3
+13000124	de dede _i_ la athair.	NULL	3
+13000125	di comdin _i_ la senathair.	NULL	3
+13000126	di airgsi _i_ fri aimsir in flaitheman.	NULL	3
+13000127	di comdite _i_ la triar;	NULL	3
+13000128	aimsiri rudartha dorime sunn.	NULL	3
+13000129	secht.	NULL	3
+13000130	_xx_it bliadnae robui tiri fene fo ultaib o bui fergus conad tainic coirpri gnathchor rogell in athgabail-so;	NULL	3
+13000131	gaibtir tra asinnhi-siu fuasnad rudarta do gres.	NULL	3
+13000132	_s_ ma robui ardarc dligid ann;	NULL	3
+13000133	mana raibi ardarc dligtd and itir, is elodh rolecid imna tri _c_buaiph, _&_ diaphlad iar nelod na _ui_ ba.	NULL	3
+13000134	ilbenna _i_ adarca na _ui_ mbo tuctha isin athgabail.	NULL	3
+13000135	asa ngaba ilbenna _i_ benda ilerda na athgabala im taisic na heirce atuaid, uair robu turbrod a cairdi doib in ben do marbad ina gell;	NULL	3
+13000136	inber ninbine da rer seo _i_ nin mac madach, is é docuaid for turus co roscuir a eocha isin tir gur cartad as he, gurba he fochunn fuaidertha in tíri fo tuaidh _i_ tri secht cumala rocinnsed atarru a turbrod cairdi, conid inn rucad in tir for o _uii_ cumalaib dib.	NULL	3
+13000137	ailiter, is ainm in tiri dobreth isin cinaidh nasail meic cuinn di diguin fergusa;	NULL	3
+13000138	bretha _i_ aitirsin;	NULL	3
+13000139	ferais fergus ferechtus _i_ aibinn	NULL	3
