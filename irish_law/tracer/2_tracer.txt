@@ -16,9 +16,9 @@
 12000016	quem qua quod _i_ a ainmniugud i mascal _&_ i femen _&_ neodur.	NULL	2
 12000017	uel quid;	NULL	2
 12000018	a quo uel qui, a qua ueal a qui, a quo uel a qui _i_ a occslaid isna tri hinadaibh-sea iter mascal _&_ femin _&_ neodur _i_ is e-sin a uatad iter mascal _&_ femin _&_ neodar;	NULL	2
-12000019	_&_ acc seo a ilardacht _&_ plurailiter: qui que que uel qua, quorum quaarum qorum, quis uel quibus, quos quas que uel qua, a quis uel a quibus _i_ ca med rand do randaib na hindsci a taidleand in focul is cid _i_ na da rann _i_ ina inde nemcinnte _i_ nem ’ga diultad nach cinnte he.	NULL	2
+12000019	_&_ acc seo a ilardacht _&_ plurailiter: qui que que uel qua, quorum quaarum qorum, quis uel quibus, quos quas que uel qua, a quis uel a quibus _i_ ca med rand do randaib na hindsci a taidleand in focul is cid _i_ na da rann _i_ ina inde nemcinnte _i_ nem ga diultad nach cinnte he.	NULL	2
 12000020	_i_ gan cinded do beth air;	NULL	2
-12000021	_&_ in dobriatar _i_ do ’ga radanach briatar he _i_ quid pro cur an uair aderar he;	NULL	2
+12000021	_&_ in dobriatar _i_ do ga radanach briatar he _i_ quid pro cur an uair aderar he;	NULL	2
 12000022	as iad-sin a denmusa do reir laidni, _&_ as leor do bunad gaca focail a cur co laidin.	NULL	2
 12000023	a gaedel _u_: cid _i_ cia head, cia dliged a inde;	NULL	2
 12000024	cid ní a airbeart;	NULL	2
@@ -34,7 +34,7 @@
 12000034	int imcomairsnech ilair _im_, ataid tri fogla fair _i_ cis lir _&_ cis ne _&_ caided;	NULL	2
 12000035	cis lir _i_ cia lear _l_ lin na sochaidi.	NULL	2
 12000036	cis ne _i_ caidet aicni na sochaidi.	NULL	2
-12000037	caidead _i_ caidi iad in socaidi, _l_ c’ait atait in sochaid.	NULL	2
+12000037	caidead _i_ caidi iad in socaidi, _l_ cait atait in sochaid.	NULL	2
 12000038	int imcomairsneach uathaid.	NULL	2
 12000039	_u_, ataid _ui_ fodla fair-side _i_ cuin.	NULL	2
 12000040	con.	NULL	2
@@ -48,10 +48,9 @@
 12000048	ceasc _i_ oní as ceas, a nimcomaircim, int uathadh.	NULL	2
 12000049	tri himcomairsne inde _&_ tri himcomairsne _&_ tri himcomairsne etar inde _&_ aiream, conid _ix_ nimcomarsna uili sin;	NULL	2
 12000050	_&_ is indliged cuid imcomursna dib do tabairt for araili mina tuga borb na haineolach, ar ni fuba dire doib-side.	NULL	2
-12000051		NULL	2
 12000052	consuiter fir for roscadaib _&_ fasaigib _&_ tesdemnaibfiraib _i_ is cain astaigter in fir iregar in breitemnus, conid a roscadaib no conid a fasaigib no conid a tesemnaib iar fir berar he;	NULL	2
 12000053	in tan as brethemnacht sin.	NULL	2
-12000054	in tan is re conairib fuigill _im_, is cain fastaigter don fir tig dun acra inni aca ta d’accra.	NULL	2
+12000054	in tan is re conairib fuigill _im_, is cain fastaigter don fir tig dun acra inni aca ta daccra.	NULL	2
 12000055	cidh a roscad cid a fasach cid a teistemain iar fir accras, cona raga agra do go roaichne in conair fuigill is dir iarsini tig do agra	NULL	2
 12000056	consuiter dliged fo coraib bel _&_ aitiden _i_ is cain fastaigter do reir dligid na cuir dogniad na meamair o mbelaib o bias aididen a cend ar aird in tan is re brethemnacht sin.	NULL	2
 12000057	in tan is re conairib fuigill _im__, is cain fastaiger cuir bel do agra for dliged aididin na neolach	NULL	2

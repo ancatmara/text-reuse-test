@@ -4,8 +4,8 @@
 13000004	_i_ co rath _i_ fer oiwmit.	NULL	3
 13000005	_i_ ce rath _i_ in ben mer _i_ in adaltrach cen clainra _i_ acht o.ipr.	NULL	3
 13000006	cuic curu foceird sec a fer ata core _i_ astaithr na cuir cuiris nech co coir o belaii uih cena, a is e cuit in olchena uair cuir dligthecia romazrara.	NULL	3
-13000007	_i_	 ama;	NULL	3
-13000008	doroaitniged adam d’fastarf ina diupairt co deimin _i_ derg each no;	NULL	3
+13000007	_i_ ama;	NULL	3
+13000008	doroaitniged adam dfastarf ina diupairt co deimin _i_ derg each no;	NULL	3
 13000009	each nindligerf.	NULL	3
 13000010	i derg each nos;	NULL	3
 13000011	deolairf.	NULL	3
@@ -31,7 +31,6 @@
 13000031	delechaib treibi ar toidriuch.	NULL	3
 13000032	gellta dib iarum coirpre ngnathchor di gabail di athgabail.	NULL	3
 13000033	di detiu di chomdetiu di aircsiu di aititiu.	NULL	3
-13000034		NULL	3
 13000035	_i_ teora bai iar fir romoichestar no romainestar asal mac cuind feinneda, aithech tfortha ri temrach, for mug mac nuadat, aithech fortha cooirpri ngnathcuir, no aithech forta cuinn _c_ catha _i_ athgabail ecinntech risa sailter tiachain re dlig.	NULL	3
 13000036	_i_ teoru ferba rodlom eochu rena mbuas, _&_ ni ris do inic meonacha	NULL	3
 13000037	_i_ finda.	NULL	3
@@ -56,7 +55,7 @@
 13000056	_i_ is uime robai in caingin.	NULL	3
 13000057	_i_ tir roboi acu cunn risar muig, _c_ cath _l_ co tucad do fergus e ina ninech.	NULL	3
 13000058	_i_ ainm in tire.	NULL	3
-13000059	_i_ is as-sin dogabustar benna ilarda na hathgabala _i_ dobreithemnaiged so d’fergus, donid gliada fergus dogeltis a ech fer _i_ fergliathach _i_ is forainm do _i_ i ndigail na greise truime tucad ara enech: eochu belbuide do marbad ara comairce.	NULL	3
+13000059	_i_ is as-sin dogabustar benna ilarda na hathgabala _i_ dobreithemnaiged so dfergus, donid gliada fergus dogeltis a ech fer _i_ fergliathach _i_ is forainm do _i_ i ndigail na greise truime tucad ara enech: eochu belbuide do marbad ara comairce.	NULL	3
 13000060	_i_ i neiric in grista truim.	NULL	3
 13000061	_i_ a saraigthe.	NULL	3
 13000062	_i_ do guin belbuide mac feidlime meic tuathail techtmair, _&_ braithair cuind eiside.	NULL	3
@@ -70,8 +69,8 @@
 13000070	friscoamarcar di a muinter do finn ciabo he hisin crunn, ar nin athgentar-som daigh celtair diclithe bui imbe.	NULL	3
 13000071	is de dobert finn a hordain ina beolo;	NULL	3
 13000072	a ddonichas eisib a frithisi, fortnosna a imbus, _&_ dichan dicetal co neipert.	NULL	3
-13000073	‘con fri lon lethcnó co tethain co tich i ndithraib dercc corra comol fri hich niba filliud fabaill a uball fin mblais cona fri carbaith mac ui co dedail daigre;	NULL	3
-13000074	dercc corra mac hui daighre’, olse, 'fil isan crund’.	NULL	3
+13000073	con fri lon lethcnó co tethain co tich i ndithraib dercc corra comol fri hich niba filliud fabaill a uball fin mblais cona fri carbaith mac ui co dedail daigre;	NULL	3
+13000074	dercc corra mac hui daighre, olse, 'fil isan crund.	NULL	3
 13000075	dorenar _c_aib _i_ da _c_ fer a mbesa moga leis _&_ da _c_ cach cethra, is eisib dorenar;	NULL	3
 13000076	ailiter _c_ cach dine de cach cenel cethra lais, is and is briugu _c_ach.	NULL	3
 13000077	caire ainsig _i_ caire dlegar do briugaid do beth occo for ten do gres ar cind cach tascair dodnicc cidh ani cairi _i_ caire anaisicc, ar ani doberr inn do-aisicc ass i noighe, no legaid hi cach caire olchena;	NULL	3

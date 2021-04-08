@@ -1,0 +1,1998 @@
+Starting Tracer ...
+
+
+ConfigurationContainer: saving configuration to data/corpora/irish_law/law_tracer.txt.conf
+Using FRAMEWORK_IMPL=eu.etrap.tracer.DefaultFrameWorkImpl
+ORIGINAL_CORPUS=data/corpora/irish_law/law_tracer.txt
+Generating positional inverted list ...
+Processing corpus: data/corpora/irish_law/law_tracer.txt with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/irish_law/law_tracer.txt.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 104 ms]
+
+
+Checking whether word numbers were computed already in file: data/corpora/irish_law/law_tracer.txt.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/irish_law/law_tracer.txt.src
+
+word numbers generated. [elapsed time: 56 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/irish_law/law_tracer.txt.wswn
+Transforming word numbers ...
+Reading known numbers: data/wordlists/100-wn-all.txt
+wswn generated. [elapsed time: 19 ms]
+
+
+Checking whether word numbers complete file is created: data/corpora/irish_law/law_tracer.txt.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 4 ms]
+
+
+Checking whether idx file was computed already in file: data/corpora/irish_law/law_tracer.txt.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/irish_law/law_tracer.txt.src
+
+First 1505 of 1505 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 52 ms]
+
+
+Checking whether bow word frequencies was computed already in file: data/corpora/irish_law/law_tracer.txt.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 122 ms]
+
+
+Checking whether hash file was filled already in file data/corpora/irish_law/law_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+using DEFAULT free mem: 15728640
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.PositionalInvertedListMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intSizeOfSentenceNumber		:             4
+intSizeOfPosition		:             3
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetRAMHash		:            10
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intDataSetsPerBucket		:         2,166
+
+MEMORY USAGE
+array hash size 		:             0
+ram hash size			: 1,419,640,832
+free mem			:   489,291,776
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0
+ram hash			:   141,950,976
+total				:   141,950,976
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 32 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 1 s 34 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/data/corpora/irish_law/law_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+ after 1892 ms finshed.
+
+
+Opening swap files
+Try to open "data/corpora/irish_law/law_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "data/corpora/irish_law/law_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing data/corpora/irish_law/law_tracer.txt.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+merge time: 2 s
+
+Processing finished. [elapsed time: 4 s 10 ms]
+
+
+Checking whether export file was filled already in file data/corpora/irish_law/law_tracer.txt.inv
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.PositionalInvertedListFlatFileExporterImpl
+Export finished. [elapsed time: 85 ms]
+
+
+Positional inverted list created.
+Writing meta file to data/corpora/irish_law/law_tracer.txt.meta
+
+
+Computing string similarity ...
+Copy from data/corpora/irish_law/law_tracer.txt.wnc to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp with filter: eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 14 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.src
+
+word numbers generated. [elapsed time: 19 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 5 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 0 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.src
+
+First 281 of 281 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 134 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+1000 sentences processed
+BOW word frequencies counted. [elapsed time: 25 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             2 (disabled)
+intFreqSizeOfRAMHash		:             2
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetArrayHash	:             2 (disabled)
+intSizeOfDataSetRAMHash		:             6
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,402
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,635,904
+free mem			:   964,296,704
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   157,417,472
+total				:   157,417,472
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 26 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 423 ms]
+
+
+
+
+
+Processing ...
+1000 sentences processed
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1
+ after 1021 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 46 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=1488
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=1488
+AbstractExporterImpl: Using non-bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 164 ms]
+
+
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.98.4873583736921262753.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash
+Writing meta file to data/corpora/irish_law/law_tracer.txt.meta
+String similarity computed.
+
+
+
+Creating character distribution ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp with filter: eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 13 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.src
+
+word numbers generated. [elapsed time: 17 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 4 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 0 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.src
+
+First 29 of 29 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 83 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 24 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             1
+intFreqSizeOfArrayHash		:             2 (disabled)
+intFreqSizeOfRAMHash		:             2
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetArrayHash	:             2 (disabled)
+intSizeOfDataSetRAMHash		:             4
+intSizeOfDataSetDiscHash	:             4
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         3,604
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,898,048
+free mem			:   964,034,560
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   236,191,744
+total				:   236,191,744
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 22 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 344 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1
+ after 1286 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 61 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=254
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=254
+AbstractExporterImpl: Using non-bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 130 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.char
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.eu.etrap.medusa.filter.sidx.IDXIDFeaturingFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.108.4964600581858227014.tmp.tok
+Character distribution created.
+
+
+
+Creating a set of letter n-grams ...
+
+Processing letter n-grams of size 2 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 10 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.src
+
+word numbers generated. [elapsed time: 14 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 5 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 1 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.src
+
+First 281 of 281 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 58 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 29 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             2 (disabled)
+intFreqSizeOfRAMHash		:             2
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetArrayHash	:             2 (disabled)
+intSizeOfDataSetRAMHash		:             6
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,402
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,635,904
+free mem			:   964,296,704
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   157,417,472
+total				:   157,417,472
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 17 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 333 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1104 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 53 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=254
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=254
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 98 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.02gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.6096518327070028352.tmp.wf
+
+Generation of letter n-grams of size 2 finished.
+
+Processing letter n-grams of size 3 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 6 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.src
+
+word numbers generated. [elapsed time: 16 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 8 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 1 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.src
+
+First 1447 of 1447 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 40 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 25 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             1 (disabled)
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetArrayHash	:             1 (disabled)
+intSizeOfDataSetRAMHash		:             5
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,883
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,832,512
+free mem			:   964,100,096
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   188,940,288
+total				:   188,940,288
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 18 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 336 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1031 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 59 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=253
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=253
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 99 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.03gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.2822374171042799010.tmp.tok
+
+Generation of letter n-grams of size 3 finished.
+
+Processing letter n-grams of size 4 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 8 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.src
+
+word numbers generated. [elapsed time: 23 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 15 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 2 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.src
+
+First 2489 of 2489 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 32 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 26 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             1 (disabled)
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetArrayHash	:             1 (disabled)
+intSizeOfDataSetRAMHash		:             5
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,883
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,832,512
+free mem			:   964,100,096
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   188,940,288
+total				:   188,940,288
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 17 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 323 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1057 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 56 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=251
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=251
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 98 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.04gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.861011045799471391.tmp.tok.db
+
+Generation of letter n-grams of size 4 finished.
+
+Processing letter n-grams of size 5 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 6 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.src
+
+word numbers generated. [elapsed time: 16 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 8 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 2 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.src
+
+First 2425 of 2425 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 25 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 26 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             1 (disabled)
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetArrayHash	:             1 (disabled)
+intSizeOfDataSetRAMHash		:             5
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,883
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,832,512
+free mem			:   964,100,096
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   188,940,288
+total				:   188,940,288
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 18 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 335 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1071 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 56 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=244
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=244
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 97 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.05gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.4567939389947853562.tmp.internal.wf.bow
+
+Generation of letter n-grams of size 5 finished.
+
+Processing letter n-grams of size 6 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 8 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.src
+
+word numbers generated. [elapsed time: 12 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 6 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 2 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.src
+
+First 1866 of 1866 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 20 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 33 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             1 (disabled)
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetArrayHash	:             1 (disabled)
+intSizeOfDataSetRAMHash		:             5
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,883
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,832,512
+free mem			:   964,100,096
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   188,940,288
+total				:   188,940,288
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 22 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 319 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1017 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 57 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=238
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=238
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 98 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.06gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.3242494400494482212.tmp.db
+
+Generation of letter n-grams of size 6 finished.
+
+Processing letter n-grams of size 7 ...
+Copy from data/corpora/irish_law/law_tracer.txt.tok to tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp
+Processing corpus: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp with filter: eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl
+Checking whether sentence file is tokenized: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 7 ms]
+
+
+Checking whether word numbers were computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.src
+
+word numbers generated. [elapsed time: 10 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 6 ms]
+
+
+Checking whether word numbers complete file is created: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 1 ms]
+
+
+Checking whether idx file was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.src
+
+First 1260 of 1260 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 17 ms]
+
+
+Checking whether bow word frequencies was computed already in file: tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 25 ms]
+
+
+Checking whether hash file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.DefaultMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             1 (disabled)
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             1
+intSizeOfDataSetArrayHash	:             1 (disabled)
+intSizeOfDataSetRAMHash		:             5
+intSizeOfDataSetDiscHash	:             5
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,883
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			:   944,832,512
+free mem			:   964,100,096
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   188,940,288
+total				:   188,940,288
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 19 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 322 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+ after 1057 ms finshed.
+
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 2 s 56 ms]
+
+
+Checking whether export file was filled already in file tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.IDFeatureFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.LogLikelihood2SignificanceImpl
+n=213
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=213
+AbstractExporterImpl: Using bow word frequencies
+1000 buckets exported.2000 buckets exported.3000 buckets exported.4000 buckets exported.5000 buckets exported.6000 buckets exported.7000 buckets exported.8000 buckets exported.9000 buckets exported.10000 buckets exported.11000 buckets exported.12000 buckets exported.13000 buckets exported.14000 buckets exported.15000 buckets exported.16000 buckets exported.17000 buckets exported.18000 buckets exported.19000 buckets exported.20000 buckets exported.21000 buckets exported.22000 buckets exported.23000 buckets exported.24000 buckets exported.25000 buckets exported.26000 buckets exported.27000 buckets exported.28000 buckets exported.29000 buckets exported.30000 buckets exported.31000 buckets exported.32000 buckets exported.33000 buckets exported.34000 buckets exported.35000 buckets exported.36000 buckets exported.37000 buckets exported.38000 buckets exported.39000 buckets exported.40000 buckets exported.41000 buckets exported.42000 buckets exported.43000 buckets exported.44000 buckets exported.45000 buckets exported.46000 buckets exported.47000 buckets exported.48000 buckets exported.49000 buckets exported.50000 buckets exported.51000 buckets exported.52000 buckets exported.53000 buckets exported.54000 buckets exported.55000 buckets exported.56000 buckets exported.57000 buckets exported.58000 buckets exported.59000 buckets exported.60000 buckets exported.61000 buckets exported.62000 buckets exported.63000 buckets exported.64000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 98 ms]
+
+
+Copy distribution from tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wnc to data/corpora/irish_law/law_tracer.txt.tok.dist.letter.07gram
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wswn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.tok.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.src
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.internal.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.fc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.internal.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wnc
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.internal.wf.bow
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.para_s
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.db
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash.lgl2.expo
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.tok
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.sidx
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wn
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.wf
+Deleting file /Users/oksder/tracer/tmp/eu.etrap.tracer.AbstractTracerFrameWork.checkPreRequirements.127.7964234674615075939.tmp.eu.etrap.medusa.filter.sidx.IDXTypedTermsFilterImpl.hash
+
+Generation of letter n-grams of size 7 finished.
+
+Generation of letter n-grams finished.
+
+
+
+
+
+START TO PROCESS LEVEL 1 (PRE-PROCESSING)
+
+Using implementation eu.etrap.tracer.preprocessing.WordLevelPreprocessingImpl for preprocessing.
+Storing data in foler data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5
+Preprocessing infile=data/corpora/irish_law/law_tracer.txt.tok to outfile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep
+Start pre-processing ...
+strLevelMetaInformationFileName=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.meta
+Writing meta file to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.meta
+Preprocessing finished.
+
+
+Generating positional inverted list ...
+Processing corpus: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 6 ms]
+
+
+Checking whether word numbers were computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.src
+
+word numbers generated. [elapsed time: 14 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/law_tracer.txt.wnc
+wswn generated. [elapsed time: 10 ms]
+
+
+Checking whether word numbers complete file is created: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 1 ms]
+
+
+Checking whether idx file was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/example/mwu-example.mwus
+Warning: Couldn't read mwu file: data/corpora/example/mwu-example.mwus
+AbstractInputImpl: loading sources from: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.src
+
+First 1505 of 1505 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 25 ms]
+
+
+Checking whether bow word frequencies was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 27 ms]
+
+
+Checking whether hash file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+using DEFAULT free mem: 15728640
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.PositionalInvertedListMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intSizeOfSentenceNumber		:             4
+intSizeOfPosition		:             3
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetRAMHash		:            10
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intDataSetsPerBucket		:         2,166
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			: 1,419,640,832
+free mem			:   489,291,776
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   141,950,976
+total				:   141,950,976
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 20 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 467 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+ after 1968 ms finshed.
+
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 3 s 50 ms]
+
+
+Checking whether export file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.inv
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.PositionalInvertedListFlatFileExporterImpl
+Export finished. [elapsed time: 71 ms]
+
+
+Positional inverted list created.
+
+END OF PROCESS LEVEL 1 (PRE-PROCESSING)
+
+
+
+START TO PROCESS LEVEL 2 (TRAINING)
+
+Using implementation eu.etrap.tracer.featuring.syntactic.shingle.TriGramShinglingTrainingImpl for training.
+Training from infile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep to outdir=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train
+Training data by class eu.etrap.tracer.featuring.syntactic.shingle.TriGramShinglingTrainingImpl ...
+Processing corpus: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep with filter: eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl
+Checking whether sentence file is tokenized: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.tok
+Checking whether word numbers were computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wn
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wswn
+Checking whether word numbers complete file is created: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc
+Checking whether idx file was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.sidx
+Checking whether bow word frequencies was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wf.bow
+Checking whether hash file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash
+using DEFAULT free mem: 15728640
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.NGramMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intFreqSizeOfArrayHash		:             2 (disabled)
+intFreqSizeOfRAMHash		:             2
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetArrayHash	:             2 (disabled)
+intSizeOfDataSetRAMHash		:             8
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intArrayEntries			:             0 (disabled)
+intDataSetsPerBucket		:         2,704
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			: 1,417,805,824
+free mem			:   491,126,784
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   177,209,344
+total				:   177,209,344
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 20 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 667 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash.ram-swap.1
+ after 1167 ms finshed.
+
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 3 s 7 ms]
+
+
+Checking whether export file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXRightTriGramFilterImpl.hash.freq.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.NGramFlatFileExporterImpl
+AbstractExporter.loadSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=3321
+AbstractExporter.loadCutoffSignificance: eu.etrap.medusa.significance.FrequencySignificanceImpl
+n=3321
+AbstractExporterImpl: Using non-bow word frequencies
+threshold=0.0	minimum frequency=0	cutoff threshold=0.0	cutoff minimum frequency=0
+1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.1000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.2000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.3000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.4000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.5000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.6000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.7000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.8000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.9000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.10000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.11000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.12000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.13000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.14000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.15000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.16000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.17000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.18000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.19000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.20000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.21000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.22000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.23000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.24000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.25000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.26000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.27000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.28000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.29000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.30000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.31000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.32000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.33000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.34000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.35000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.36000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.37000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.38000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.39000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.40000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.41000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.42000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.43000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.44000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.45000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.46000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.47000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.48000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.49000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.50000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.51000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.52000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.53000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.54000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.55000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.56000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.57000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.58000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.59000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.60000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.61000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.62000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.63000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.64000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.65000 buckets exported.
+Export finished. [elapsed time: 99 ms]
+
+
+
+Training of corpus by class eu.etrap.tracer.featuring.syntactic.shingle.TriGramShinglingTrainingImpl finished.
+
+Copy from data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.kn
+Generating positional inverted list ...
+Processing corpus: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep with filter: eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl
+Checking whether sentence file is tokenized: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.tok
+Tokenizing sentence file ...
+
+sentences are tokenized. [elapsed time: 6 ms]
+
+
+Checking whether word numbers were computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wn
+Generating word numbers ...
+MWU_FILE_NAME: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.trigram.shingle
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.trigram.shingle
+3128 different mwu's found and loaded.
+AbstractInputImpl: loading sources from: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.src
+
+word numbers generated. [elapsed time: 52 ms]
+
+
+Checking whether word numbers needs transformation into wortschatz word numbers (wswn): data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wswn
+Transforming word numbers ...
+Reading known numbers: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.kn
+wswn generated. [elapsed time: 26 ms]
+
+
+Checking whether word numbers complete file is created: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc
+Generating word numbers complete file ...
+word numbers complete file is generated. [elapsed time: 6 ms]
+
+
+Checking whether idx file was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.sidx
+Writing IDX-file ...
+MWU_FILE_NAME: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.trigram.shingle
+AbstractInputImpl: Using multi word units (mwu) in /Users/oksder/tracer/data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.trigram.shingle
+3128 different mwu's found and loaded.
+AbstractInputImpl: loading sources from: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.src
+
+First 4633 of 4633 words will be hold in memory.
+
+IDX-file is written. [elapsed time: 107 ms]
+
+
+Checking whether bow word frequencies was computed already in file: data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.internal.wf.bow
+Creating BOW word frequencies ...
+HARD_DISC_BLOCK=1048576
+
+BOW word frequencies counted. [elapsed time: 31 ms]
+
+
+Checking whether hash file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash
+using DEFAULT free mem: 15728640
+
+
+
+
+MEDUSA'S TECHNICAL CONFIGURATION MODULE (MTCM)
+using heuristic implemenation: eu.etrap.medusa.config.PositionalInvertedListMemoryAllocatorImpl
+
+checking jvm size ...
+no restrictions are neccessary.
+
+DATASET FORMAT DESCRIPTION
+intSizeOfWordNumbers		:             2
+intSizeOfSentenceNumber		:             4
+intSizeOfPosition		:             3
+intFreqSizeOfRAMHash		:             1
+intFreqSizeOfDiscHash		:             2
+intSizeOfDataSetRAMHash		:            10
+intSizeOfDataSetDiscHash	:             6
+
+
+MEDUSA'S HASH CONFIGURATION
+BLOCKS 				:        65,536
+BLOCK_SIZE			:         8,192
+intDataSetsPerBucket		:         2,166
+
+MEMORY USAGE
+array hash size 		:             0 (disabled)
+ram hash size			: 1,419,640,832
+free mem			:   489,291,776
+total				: 1,908,932,608 (1820.0 MB)
+
+
+
+
+RESERVED HASH ADRESSES
+array hash			:             0 (disabled)
+ram hash			:   141,950,976
+total				:   141,950,976
+
+
+Creating filter component ...
+stopword file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+ATTENTION!!! WordlistFilterComponentImpl can't find the following file: /Users/oksder/tracer/data/stopwords/no-stopwords.txt
+WordlistFilterComponentImpl disabled...
+filter component is written. [elapsed time: 21 ms]
+
+
+Loading parser ...
+HARD_DISC_BLOCK=1048576
+Parser loaded. [elapsed time: 534 ms]
+
+
+
+
+
+Processing ...
+
+
+
+
+Merging started ...
+final swapping ram hash on disc:
+/Users/oksder/tracer/data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+ after 1325 ms finshed.
+
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+Opening swap files
+Try to open "data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1" ... File opened.
+1 swap files opened.
+
+1000 buckets merged.2000 buckets merged.3000 buckets merged.4000 buckets merged.5000 buckets merged.6000 buckets merged.7000 buckets merged.8000 buckets merged.9000 buckets merged.10000 buckets merged.11000 buckets merged.12000 buckets merged.13000 buckets merged.14000 buckets merged.15000 buckets merged.16000 buckets merged.17000 buckets merged.18000 buckets merged.19000 buckets merged.20000 buckets merged.21000 buckets merged.22000 buckets merged.23000 buckets merged.24000 buckets merged.25000 buckets merged.26000 buckets merged.27000 buckets merged.28000 buckets merged.29000 buckets merged.30000 buckets merged.31000 buckets merged.32000 buckets merged.33000 buckets merged.34000 buckets merged.35000 buckets merged.36000 buckets merged.37000 buckets merged.38000 buckets merged.39000 buckets merged.40000 buckets merged.41000 buckets merged.42000 buckets merged.43000 buckets merged.44000 buckets merged.45000 buckets merged.46000 buckets merged.47000 buckets merged.48000 buckets merged.49000 buckets merged.50000 buckets merged.51000 buckets merged.52000 buckets merged.53000 buckets merged.54000 buckets merged.55000 buckets merged.56000 buckets merged.57000 buckets merged.58000 buckets merged.59000 buckets merged.60000 buckets merged.61000 buckets merged.62000 buckets merged.63000 buckets merged.64000 buckets merged.65000 buckets merged.
+Merging finished ...
+Deleting swap files ...
+Removing data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.ram-swap.1
+merge time: 1 s
+
+Processing finished. [elapsed time: 3 s 9 ms]
+
+
+Checking whether export file was filled already in file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.eu.etrap.medusa.filter.sidx.IDXPositionalInvertedListFilterImpl.hash.freq.expo
+Exporting ...
+EXPORTER_IMPL: eu.etrap.medusa.export.PositionalInvertedListFlatFileExporterImpl
+Export finished. [elapsed time: 67 ms]
+
+
+Positional inverted list created ...
+
+Writing feats file from data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.feats
+Feats file finally written.
+
+
+Writing fmap file to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.fmap
+Loading word numbers from data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc
+Word are loaded.
+
+Fmap file finally written.
+
+
+Writing train file to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train
+Loading ngram id's from  data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/law_tracer.prep.wnc
+Ngram id's are loaded.
+
+Train file finally written.
+
+Writing meta file to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.meta
+
+END OF PROCESS LEVEL 2 (TRAINING)
+
+
+
+START TO PROCESS LEVEL 3 (SELECTION)
+
+1 of 1 configured selection implementations need to be excecuted. 0 selection strategies are already pre-computed.
+
+Using 1 implementation(s) eu.etrap.tracer.selection.localglobal.LocalMaxFeatureFrequencySelectorImpl for selection.
+Selection done from infile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train to outdir=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/law_tracer.sel
+Weighting features for 1 selection strategies.
+[1/1]: Computing features weights for selection strategies eu.etrap.tracer.selection.localglobal.LocalMaxFeatureFrequencySelectorImpl
+	Sorting file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train ... DONE.
+	Reading train file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train
+	Global feature distribution stored by key GlobalFeatureFrequencyDistribution
+	Feature IDs range from 1606 to 4733.
+	Weighting features by word frequency ...
+	Loading feature weights from file data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/law_tracer.train.wordfreq.asc.sorted ... DONE! 3128 feature weights loaded.
+	2658 feature tokens are selected out of 3323 by a configured feature density of 0.8 (configured: 0.8).
+	Writing meta information ... DONE!
+[1/1]: DONE.
+
+
+Creating multiple selection for ... 
+	[1/1]: Still 2658 selected features after processing data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/01-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/law_tracer.sel
+Writing final selection file to data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/law_tracer.sel ...DONE!
+	Writing meta information ... DONE!
+
+END OF PROCESS LEVEL 3 (SELECTION)
+
+
+
+START TO PROCESS LEVEL 4 (LINKING)
+
+Using eu.etrap.tracer.linking.IntraCorpusLinkingImpl implementation  for linking.
+OUTPUT file is outfile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/law_tracer-law_tracer.link ... 
+	Preparing RUID2Feature connector by implementation in eu.etrap.tracer.linking.connector.ram.RUID2FeatureRAMConnectorImpl
+	DONE!
+
+	Preparing Feature2RUID connector by implementation in eu.etrap.tracer.linking.connector.ram.Feature2RUIDRAMConnectorImpl
+	DONE!
+
+	Linking process started for 240 fingerprinted re-use units
+		240 re-use units processed. 100% DONE!
+	DONE!!
+
+END OF PROCESS LEVEL 4 (LINKING)
+
+
+
+START TO PROCESS LEVEL 5 (SCORING)
+
+Using eu.etrap.tracer.scoring.feature.selected.symmetric.SelectedFeatureResemblanceSimilarityImpl implementation  for scoring.
+OUTPUT file is outfile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.2/law_tracer-law_tracer.score ... 
+	Preparing data from data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/law_tracer.sel ...
+	Scoring data 
+		FROM data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/law_tracer-law_tracer.link ...
+		TO data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.2/law_tracer-law_tracer.score ...
+
+	DONE!!
+
+END OF PROCESS LEVEL 5 (SCORING)
+
+
+
+START TO PROCESS LEVEL 6 (POSTPROCESING)
+
+Using eu.etrap.tracer.postprocessing.traviz.TraVizPostprocessingImpl implementation  for postprocessing.
+OUTPUT file is outfile=data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.2/001-TraVizPostprocessingImpl-mode=1_minfrequency=2/law_tracer-law_tracer.pproc ... 
+Corpus file name         : data/corpora/irish_law/law_tracer.txt
+TRACER's score file name : data/corpora/irish_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-02-01-01-02-TriGramShinglingTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-law_tracer-01-01-01-02-law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.2/law_tracer-law_tracer.score
+TRV mode                 : 1
+Minimum frequency        : 2
+	DONE!!
+
+END OF PROCESS LEVEL 6 (POSTPROCESSING)
+
+
+

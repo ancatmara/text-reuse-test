@@ -12,7 +12,7 @@
 11000012	_l_ cidh, cia hedh _i_ cia dliged i naragar _l_ i naregar _l_ i nedartairer _l_ ina fagar an breath somainech uais raidid na fene o inbelaibh ni.	NULL	1
 11000013	_i_ ni hanannsu son, _l_ ni doilgi son _i_ ni doilgi soin an ernedha ina soin an imchomhairc, uair ni anand sai a soin _i_ a foghar do gres _s_ madh a ceill i fir in rosgaidh.	NULL	1
 11000014	_&_ dligiud in asaidh _&_ aicned na testemna _l_ na parbaile;	NULL	1
-11000015	is ed-sin is chomrair taisgeda don breith,_&_ as inti bis no go mberar, _&_ as aisti berar in tan is re breithamhnacht sin.	NULL	1
+11000015	is ed-sin is chomrair taisgeda don breith, _&_ as inti bis no go mberar, _&_ as aisti berar in tan is re breithamhnacht sin.	NULL	1
 11000016	in tan is re conairibh fuigill _im_, cid ni _l_ cidh, cia ed i cia dliged, i niruiriter de don ir uil agun agra a mbreith tomainech uais raidhidh na fene o mbelaibh gan breth doib fo _c_oir.	NULL	1
 11000017	ni a fir _i_ gur aichne an conaire, _f_ is fir;	NULL	1
 11000018	_&_ dligiud _i_ cor aichne in conair, _f_ as dliged;	NULL	1
@@ -20,10 +20,10 @@
 11000020	_f_ na tuc ar aird _i_ cert _&_ techda _&_ coir nathchomairc;	NULL	1
 11000021	_&_ deismirccht seo arandi is dliged.	NULL	1
 11000022	et dliged file ai la filed, edon dliged gen.	NULL	1
-11000023	_s_ is ed mides filidecht		NULL	1
-11000024	consuiter fir for rosgadhaibh _&_ fasaidibh _&_ teistemhnaibh _&_ firaibh _i_ is cain astaiter in fir aragar, in breithamnas, coinid ar rosgadhaibh _l_ conid ar fosaighibh _l_ conid a teistemnaibh iar fir a mberar in tan is re brethamhnacht sein in tan is _r_ conairibh, _f_ _im_, is cain astaiter de don fir fuil agonn acra ini ’ga ta dh’acra, cidh as rosgadh gidh a fasach a testemain iar fir agaras he, conach ragha do inni agras no cu rainic in conair.	NULL	1
-11000025	_f_ is dir do iarsa ti dunn ach _l_ d’acra	NULL	1
-11000026	consuiter dliged for coraibh bel _&_ aititen _i_ is cain astaiter do reir dligid indi risa tabrait na memair trebhair cu coir o mbelaibh o bhias aititiu na cend ar airdi in tan as re breithamhnacht sin in tan is re conairibh, _f_, is cain astaiter cuir bel d’ocra for dliged a m haitidin na neolach	NULL	1
+11000023	_s_ is ed mides filidecht	NULL	1
+11000024	consuiter fir for rosgadhaibh _&_ fasaidibh _&_ teistemhnaibh _&_ firaibh _i_ is cain astaiter in fir aragar, in breithamnas, coinid ar rosgadhaibh _l_ conid ar fosaighibh _l_ conid a teistemnaibh iar fir a mberar in tan is re brethamhnacht sein in tan is _r_ conairibh, _f_ _im_, is cain astaiter de don fir fuil agonn acra ini ga ta dhacra, cidh as rosgadh gidh a fasach a testemain iar fir agaras he, conach ragha do inni agras no cu rainic in conair.	NULL	1
+11000025	_f_ is dir do iarsa ti dunn ach _l_ dacra	NULL	1
+11000026	consuiter dliged for coraibh bel _&_ aititen _i_ is cain astaiter do reir dligid indi risa tabrait na memair trebhair cu coir o mbelaibh o bhias aititiu na cend ar airdi in tan as re breithamhnacht sin in tan is re conairibh, _f_, is cain astaiter cuir bel docra for dliged a m haitidin na neolach	NULL	1
 11000027	cosuiter aigned for logaid co corus _i_ is cain asdaiter do reir dligid aicnid inní logas neach uadha cu coir o belaibh;	NULL	1
 11000028	acus go corus _i_ co coris na hoirechta, no reir na hoirechta, _l_ go cae choir uais na hoirechta in tan is re breithamhnacht sin in tan is re conairibh _f_ _im_, is cain astaiter inní loghus neach uadh buidein o belaibh et co corus _i_ co co-fir-fis na hoirechta, _l_ cae choir uais nairechta _&_ aignedh gur aichni an conair _f_ as aicenta do iarsa ti don agra arna tri conairib _f_ na tuc ar aird	NULL	1
 11000029	consuiter fir _&_ dliged imaille for nemedh _i_ is cain astaiter an breithamnas na canoini conad eisti-sin berar gach uile breth fair, for nemhedh na heneclainne _l_ do nech fora ta nemtenchus int oracht aineolach, co fis ainelais orro, cidh firbreath gidh gubreith berait.	NULL	1
