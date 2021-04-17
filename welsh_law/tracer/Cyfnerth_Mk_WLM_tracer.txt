@@ -1,0 +1,56 @@
+11000001	Seith punt yu gobyr merch brenhin ac y r uam y telir	NULL	Cyfnerth_Mk_WLM
+11000002	A r gur a tal y chowyll kanys tir a tal idi	NULL	Cyfnerth_Mk_WLM
+11000003	Pedeir punt ar hugeint yu y heguedi	NULL	Cyfnerth_Mk_WLM
+11000004	Or a merch breyr gan ur yn llathrut heb rod kenedyl	NULL	Cyfnerth_Mk_WLM
+11000005	pan atter sef uyd y heguedi	NULL	Cyfnerth_Mk_WLM
+11000006	whech eidon kyhyt eu kyrn ac eu hyscyfam	NULL	Cyfnerth_Mk_WLM
+11000007	Y uerch tayauc y telir tri eidon gogyfoet a rei hynny	NULL	Cyfnerth_Mk_WLM
+11000008	Or kymer gur wreic o rod kenedyl	NULL	Cyfnerth_Mk_WLM
+11000009	ac os gat kyn pen y seith mlyned	NULL	Cyfnerth_Mk_WLM
+11000010	talet idi teir punt yn y heguedi os merch breyr uyd	NULL	Cyfnerth_Mk_WLM
+11000011	phunt a hanher yn y chowyll	NULL	Cyfnerth_Mk_WLM
+11000012	hwheugeint yn y hamobyr	NULL	Cyfnerth_Mk_WLM
+11000013	aos merch tayauc uyd	NULL	Cyfnerth_Mk_WLM
+11000014	punt a hanher yn y heguedi	NULL	Cyfnerth_Mk_WLM
+11000015	a wheugeint yn y chowyll	NULL	Cyfnerth_Mk_WLM
+11000016	a phedeir ar hugeint yn y hamobyr	NULL	Cyfnerth_Mk_WLM
+11000017	Os guedy y seith mlyned y gal	NULL	Cyfnerth_Mk_WLM
+11000018	bit ran deu hanher y rydunt	NULL	Cyfnerth_Mk_WLM
+11000019	onyt breint a dyry ragor yr gur	NULL	Cyfnerth_Mk_WLM
+11000020	Y Deuparth y plant a dau yr gur	NULL	Cyfnerth_Mk_WLM
+11000021	nyt amgen yr hynaf ar ieuhaf	NULL	Cyfnerth_Mk_WLM
+11000022	ar trayan yr uam	NULL	Cyfnerth_Mk_WLM
+11000023	aos agheu ae guahan	NULL	Cyfnerth_Mk_WLM
+11000024	bit ran deu hanher y rydunt o pop peth	NULL	Cyfnerth_Mk_WLM
+11000025	Sarhaet gureic uryauc herwyd breint y gur y telir	NULL	Cyfnerth_Mk_WLM
+11000026	Pan lather gur gureigyauc	NULL	Cyfnerth_Mk_WLM
+11000027	y sarhaet a telir yn gyntaf ac odyna y alanas	NULL	Cyfnerth_Mk_WLM
+11000028	kanys trayan sarhaet y gur a telir yr wreic	NULL	Cyfnerth_Mk_WLM
+11000029	Gureic gur ryd a dichaun rodi y chrys	NULL	Cyfnerth_Mk_WLM
+11000030	ae mantell ae phenlliein ae hescityeu ae blaut	NULL	Cyfnerth_Mk_WLM
+11000031	ae chaus ae hemenyn ac llaeth heb ganhat y gur	NULL	Cyfnerth_Mk_WLM
+11000032	ac a eill benffygyau holl dootrefyn y ty	NULL	Cyfnerth_Mk_WLM
+11000033	Ny dichaun gureic tayauc rodi heb ganhat y gur onyt y phenguch	NULL	Cyfnerth_Mk_WLM
+11000034	ac ny eill benf Tygyau onyt y gogyr ae ridyll	NULL	Cyfnerth_Mk_WLM
+11000035	a hynny hyt yclyuher y gau ae throet urth y throtheu	NULL	Cyfnerth_Mk_WLM
+11000036	aor a moruyn wyra yn llathrut heb rod kenedyl	NULL	Cyfnerth_Mk_WLM
+11000037	y that a dichaun y hattuyn oe hanuod racy gur	NULL	Cyfnerth_Mk_WLM
+11000038	ac ny thal y hamobyr yr argluyd	NULL	Cyfnerth_Mk_WLM
+11000039	Or a gureic hagen yn llathrut	NULL	Cyfnerth_Mk_WLM
+11000040	ny eill neb y hattuyn racy gur oe hanuod	NULL	Cyfnerth_Mk_WLM
+11000041	Or lie y boy hatlam y telir y hamobyr	NULL	Cyfnerth_Mk_WLM
+11000042	Y neb a dycco treis ar wreic	NULL	Cyfnerth_Mk_WLM
+11000043	talet y hamobyr yr argluyd ae diruy	NULL	Cyfnerth_Mk_WLM
+11000044	ae dilystaut ae heguedi ae sarhaet a tal idi hitheu	NULL	Cyfnerth_Mk_WLM
+11000045	Or guatta gur treissau gureic	NULL	Cyfnerth_Mk_WLM
+11000046	ac os kadarnha y wreic yn y herbyn	NULL	Cyfnerth_Mk_WLM
+11000047	kymeret hi y gala y gur yn y llau asseu	NULL	Cyfnerth_Mk_WLM
+11000048	ar creir yn y llau deheu	NULL	Cyfnerth_Mk_WLM
+11000049	a thyget ry duyn treis ohonau ef erni hi ar gala honno	NULL	Cyfnerth_Mk_WLM
+11000050	ac uelly ny chyll hi dim oe iaun	NULL	Cyfnerth_Mk_WLM
+11000051	y neb a wato treis rodet 1u deg wyr a deu ugeint heb gaeth a heb alltut	NULL	Cyfnerth_Mk_WLM
+11000052	O tri achaus ny chyll gureic y heguedi kyt adauho y gur	NULL	Cyfnerth_Mk_WLM
+11000053	o clafyri ac eisseu kyt a dryc anadyl	NULL	Cyfnerth_Mk_WLM
+11000054	Tri pheth ny chyll gureic kyt gatter am y cham	NULL	Cyfnerth_Mk_WLM
+11000055	y chowyll ae hargyfreu	NULL	Cyfnerth_Mk_WLM
+11000056	ae huynebwerth nyt amgen wheugeint uyd y huynebwerth	NULL	Cyfnerth_Mk_WLM

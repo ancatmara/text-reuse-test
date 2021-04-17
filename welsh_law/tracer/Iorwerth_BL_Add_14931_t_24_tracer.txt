@@ -1,0 +1,24 @@
+13000001	O deruyd y wreic bot rodyeyt ydy	NULL	Iorwerth_BL_Add_14931_t_24
+13000002	a dan y hagwedi y dyly bot hyt y pen y seith blynet	NULL	Iorwerth_BL_Add_14931_t_24
+13000003	ac ysgar onadunt ranhent yn deu hanner bop peth a uo udunt	NULL	Iorwerth_BL_Add_14931_t_24
+13000004	y wreyc byeu rannu y gur bieu dewyssau	NULL	Iorwerth_BL_Add_14931_t_24
+13000005	y moch yr gur ar deueit yr wreic	NULL	Iorwerth_BL_Add_14931_t_24
+13000006	ony byd namyn y neill onadunt rannu yn deu hanner	NULL	Iorwerth_BL_Add_14931_t_24
+13000007	ac os deueit a geyuyr a uyd y deueit	NULL	Iorwerth_BL_Add_14931_t_24
+13000008	yr gur ar geyuyr yr ureyc	NULL	Iorwerth_BL_Add_14931_t_24
+13000009	ony byd namyn y neill eu rannu	NULL	Iorwerth_BL_Add_14931_t_24
+13000010	Or meybyon duy rann yr tat ac un yr uam	NULL	Iorwerth_BL_Add_14931_t_24
+13000011	yr hynaw ar yeuaw yr tat ar perued yr uam	NULL	Iorwerth_BL_Add_14931_t_24
+13000012	y doodreuyn ual hyn y rennyr holl lestry y llaeth eithyr un bayol yr wreic yd a	NULL	Iorwerth_BL_Add_14931_t_24
+13000013	yr holl dysgleu eithyr un dysgyl yr wreic yd a	NULL	Iorwerth_BL_Add_14931_t_24
+13000014	ar deu hynny yr gur yd a	NULL	Iorwerth_BL_Add_14931_t_24
+13000015	y wreic a dyly y carr a yeu y duyn y doodreuyn or ty	NULL	Iorwerth_BL_Add_14931_t_24
+13000016	y gur a	NULL	Iorwerth_BL_Add_14931_t_24
+13000017	dyly holl lestry y llyn	NULL	Iorwerth_BL_Add_14931_t_24
+13000018	y gur a dyly y rydyll ar wreic y gogyr man	NULL	Iorwerth_BL_Add_14931_t_24
+13000019	y gur a dyly y maen uchaw yr ureuan	NULL	Iorwerth_BL_Add_14931_t_24
+13000020	ar wreyc yr yssaw	NULL	Iorwerth_BL_Add_14931_t_24
+13000021	y dyllat a uo arnadunt y wreic bieu	NULL	Iorwerth_BL_Add_14931_t_24
+13000022	yr hun a uo a danadunt y gur byeu	NULL	Iorwerth_BL_Add_14931_t_24
+13000023	yny wreicao a gwedy y gwreicao ellug y dillat yr wreic	NULL	Iorwerth_BL_Add_14931_t_24
+13000024	ac os gwreic arall a gusc ar y dillat talet y huynepwerth 	NULL	Iorwerth_BL_Add_14931_t_24

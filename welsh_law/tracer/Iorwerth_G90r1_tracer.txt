@@ -1,0 +1,33 @@
+14000001	O deruyd y wreic bot rodyeit idi	NULL	Iorwerth_G90r1
+14000002	ydan y hangwedi y dyly bot hyt ym pen y seith mlyned;	NULL	Iorwerth_G90r1
+14000003	ac o cheiff teir nos or seithuet bluydyn ac yskar onadunt	NULL	Iorwerth_G90r1
+14000004	rannent yn deu hanher pob peth a uo ar y helo oc a uo udunt	NULL	Iorwerth_G90r1
+14000005	Y wreic bieu rannu ar gur dewissau	NULL	Iorwerth_G90r1
+14000006	Y moch yr gur	NULL	Iorwerth_G90r1
+14000007	ar deueit yr wreic	NULL	Iorwerth_G90r1
+14000008	Ony byd ont y neill	NULL	Iorwerth_G90r1
+14000009	eu rannu yn deu hanher	NULL	Iorwerth_G90r1
+14000010	Ac os deueit a geiuyr a uyd	NULL	Iorwerth_G90r1
+14000011	y deueit yr gur	NULL	Iorwerth_G90r1
+14000012	ar geiuyr yr wreic	NULL	Iorwerth_G90r1
+14000013	Ony byd ont y neill	NULL	Iorwerth_G90r1
+14000014	eu rannu yn deu hanner	NULL	Iorwerth_G90r1
+14000015	Or meibon y duy ran yr tat	NULL	Iorwerth_G90r1
+14000016	yr hynaf ar ieuhaf ar peruedhaf yr uam	NULL	Iorwerth_G90r1
+14000017	Y dotdrefyn ual hyn y rennir	NULL	Iorwerth_G90r1
+14000018	llestri y llaeth oil	NULL	Iorwerth_G90r1
+14000019	eithyr un bayol ac un dysgyl	NULL	Iorwerth_G90r1
+14000020	yr gwreic yd a	NULL	Iorwerth_G90r1
+14000021	ar deu hynny yr gur	NULL	Iorwerth_G90r1
+14000022	Y wreic a dyly karr a ieueu	NULL	Iorwerth_G90r1
+14000023	Y gur a dyly holl lestri y llyn	NULL	Iorwerth_G90r1
+14000024	Y gur a dyly y ridyll a r wreic y gogyr man	NULL	Iorwerth_G90r1
+14000025	Y gur a dyly y maen uchaf o r ureuan	NULL	Iorwerth_G90r1
+14000026	ar wreic yr issaf	NULL	Iorwerth_G90r1
+14000027	Y dillat gwely a uo arnadunt y wreic bieiuyd	NULL	Iorwerth_G90r1
+14000028	Y dillat a uo adanunt	NULL	Iorwerth_G90r1
+14000029	y gur bieu yny wreicaho	NULL	Iorwerth_G90r1
+14000030	Ac guedy gureicao	NULL	Iorwerth_G90r1
+14000031	ellynget y dillat yr wreic	NULL	Iorwerth_G90r1
+14000032	Ac os gureic arall a gusc ar y dillat	NULL	Iorwerth_G90r1
+14000033	talet y huynebwerth iddi	NULL	Iorwerth_G90r1

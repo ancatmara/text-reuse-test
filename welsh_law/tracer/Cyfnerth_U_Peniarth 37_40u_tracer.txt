@@ -1,0 +1,50 @@
+12000001	SEith punt yu gobyr merch gwraged brenhin	NULL	Cyfnerth_U_Peniarth 37_40u
+12000002	Ac yr uam y telir	NULL	Cyfnerth_U_Peniarth 37_40u
+12000003	Ar gur a tal y cowyll	NULL	Cyfnerth_U_Peniarth 37_40u
+12000004	Canys tir atelir idi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000005	O da merch breyr gan ur heb rod kenedyl pan atter	NULL	Cyfnerth_U_Peniarth 37_40u
+12000006	Sef yu y hegwedi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000007	Chwech eidon kyhyt eu kyrn ac eu hysgyfarn	NULL	Cyfnerth_U_Peniarth 37_40u
+12000008	Merch tayauc tri eidon uyd y hegwedi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000009	Or kymer gur gwreic o rod kenedyl	NULL	Cyfnerth_U_Peniarth 37_40u
+12000010	Ac os gat kyn penn y seith mlyned Talet y hegwedi idi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000011	Punt a hanher uyd y chowyll	NULL	Cyfnerth_U_Peniarth 37_40u
+12000012	Chweugeint uyd y gobyr	NULL	Cyfnerth_U_Peniarth 37_40u
+12000013	Os gwedy penn y seith mlyned y gedir	NULL	Cyfnerth_U_Peniarth 37_40u
+12000014	Bit rann deu hanher y rydunt Onyt breint aduc ragor yr gur	NULL	Cyfnerth_U_Peniarth 37_40u
+12000015	Deuparth y plant a dau yr gur	NULL	Cyfnerth_U_Peniarth 37_40u
+12000016	Nyt amgen yr hynaf	NULL	Cyfnerth_U_Peniarth 37_40u
+12000017	Ar ieuhaf Ar trayan yr uam	NULL	Cyfnerth_U_Peniarth 37_40u
+12000018	Sarhaet gureic uryauc	NULL	Cyfnerth_U_Peniarth 37_40u
+12000019	urth ureint y gur y telir idi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000020	Pan ladher gur gureigauc	NULL	Cyfnerth_U_Peniarth 37_40u
+12000021	y sarhaet a telir idau gysseuin	NULL	Cyfnerth_U_Peniarth 37_40u
+12000022	Ac odyna y alanas	NULL	Cyfnerth_U_Peniarth 37_40u
+12000023	Canys trayan y sarhaet a geiff y wreic	NULL	Cyfnerth_U_Peniarth 37_40u
+12000024	Ac ny cheiff dim or alanas	NULL	Cyfnerth_U_Peniarth 37_40u
+12000025	Gwreic gur breinhaul a digaun benffygyau y chrys ae mantell	NULL	Cyfnerth_U_Peniarth 37_40u
+12000026	Ae phenlliein heb ganhyat y gur	NULL	Cyfnerth_U_Peniarth 37_40u
+12000027	A roddi y buyt ae diaut	NULL	Cyfnerth_U_Peniarth 37_40u
+12000028	A benffygyau dodrefyn y ty yn gubyl	NULL	Cyfnerth_U_Peniarth 37_40u
+12000029	Ac ny digaun gureic tayauc roddi dim nae uenffygyau heb ganhyat	NULL	Cyfnerth_U_Peniarth 37_40u
+12000030	y gur namyn y feng uuch	NULL	Cyfnerth_U_Peniarth 37_40u
+12000031	ae gogyr ae ridill a hynny hyt y clywer y galu	NULL	Cyfnerth_U_Peniarth 37_40u
+12000032	ae throet ar y trothuy y neb a dycco treis ar wreic	NULL	Cyfnerth_U_Peniarth 37_40u
+12000033	Talet y gobyr yr argluyd	NULL	Cyfnerth_U_Peniarth 37_40u
+12000034	Ae hegwedi ae dilystaut	NULL	Cyfnerth_U_Peniarth 37_40u
+12000035	Ac or byd moruyn	NULL	Cyfnerth_U_Peniarth 37_40u
+12000036	Talet y chowyll	NULL	Cyfnerth_U_Peniarth 37_40u
+12000037	O diwat y gur y treis ac os gyrr y wreic arnau	NULL	Cyfnerth_U_Peniarth 37_40u
+12000038	kymeret hi y creir yn y llau deheu idi	NULL	Cyfnerth_U_Peniarth 37_40u
+12000039	Ae gala yn y llau asseu a thyget ry duyn treis erni	NULL	Cyfnerth_U_Peniarth 37_40u
+12000040	Ac yuelly ny chyll dim oe iaun	NULL	Cyfnerth_U_Peniarth 37_40u
+12000041	Gwreic a treisser	NULL	Cyfnerth_U_Peniarth 37_40u
+12000042	Ony uybyd puy ae treisso ny thal amobyr	NULL	Cyfnerth_U_Peniarth 37_40u
+12000043	Canys ketwis y brenin	NULL	Cyfnerth_U_Peniarth 37_40u
+12000044	hi rac treis y byd colledic ynteu oe amobyr	NULL	Cyfnerth_U_Peniarth 37_40u
+12000045	Ac od amheuir y wreic am hynny	NULL	Cyfnerth_U_Peniarth 37_40u
+12000046	Rodet y llu na uyr puy ae treissuys ae ry treissau mal kynt	NULL	Cyfnerth_U_Peniarth 37_40u
+12000047	Od ymda gwreic e hunan	NULL	Cyfnerth_U_Peniarth 37_40u
+12000048	A dyuot gur idi ae threissau	NULL	Cyfnerth_U_Peniarth 37_40u
+12000049	Os diwat a wna yr gur	NULL	Cyfnerth_U_Peniarth 37_40u
+12000050	Roddet lu deng wyr a deugeint	NULL	Cyfnerth_U_Peniarth 37_40u
