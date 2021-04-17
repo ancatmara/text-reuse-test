@@ -1,0 +1,232 @@
+.DS_Store
+
+data
+*.tmp
+tmp
+*~
+*.swp
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Mac
+.DS_Store
+
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+logs/scheduler/latest
+pythonenv/bin/activate
+pythonenv/bin/activate-global-python-argcomplete
+pythonenv/bin/activate.csh
+pythonenv/bin/activate.fish
+pythonenv/bin/airflow
+pythonenv/bin/alembic
+pythonenv/bin/chardetect
+pythonenv/bin/easy_install
+pythonenv/bin/easy_install-3.6
+pythonenv/bin/email_validator
+pythonenv/bin/f2py
+pythonenv/bin/f2py3
+pythonenv/bin/f2py3.6
+pythonenv/bin/fabmanager
+pythonenv/bin/flask
+pythonenv/bin/flaskswagger
+pythonenv/bin/futurize
+pythonenv/bin/get_objgraph
+pythonenv/bin/gunicorn
+pythonenv/bin/gunicorn_paster
+pythonenv/bin/json-merge-patch
+pythonenv/bin/jsonschema
+pythonenv/bin/mako-render
+pythonenv/bin/markdown_py
+pythonenv/bin/natsort
+pythonenv/bin/pasteurize
+pythonenv/bin/pip
+pythonenv/bin/pip3
+pythonenv/bin/pip3.6
+pythonenv/bin/pybabel
+pythonenv/bin/pygmentize
+pythonenv/bin/pyjwt
+pythonenv/bin/python
+pythonenv/bin/python-argcomplete-check-easy-install-script
+pythonenv/bin/python-argcomplete-tcsh
+pythonenv/bin/python3
+pythonenv/bin/register-python-argcomplete
+pythonenv/bin/rst2html.py
+pythonenv/bin/rst2html4.py
+pythonenv/bin/rst2html5.py
+pythonenv/bin/rst2latex.py
+pythonenv/bin/rst2man.py
+pythonenv/bin/rst2odt.py
+pythonenv/bin/rst2odt_prepstyles.py
+pythonenv/bin/rst2pseudoxml.py
+pythonenv/bin/rst2s5.py
+pythonenv/bin/rst2xetex.py
+pythonenv/bin/rst2xml.py
+pythonenv/bin/rstpep2html.py
+pythonenv/bin/tabulate
+pythonenv/bin/undill
+pythonenv/bin/wsdump.py
+pythonenv/lib64
+pythonenv/pyvenv.cfg
+pythonenv/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl
+pythonenv/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl
+pythonenv/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl
+pythonenv/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl
+pythonenv/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl
+pythonenv/share/python-wheels/distlib-0.2.6-py2.py3-none-any.whl
+pythonenv/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl
+pythonenv/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl
+pythonenv/share/python-wheels/idna-2.6-py2.py3-none-any.whl
+pythonenv/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl
+pythonenv/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl
+pythonenv/share/python-wheels/packaging-17.1-py2.py3-none-any.whl
+pythonenv/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl
+pythonenv/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl
+pythonenv/share/python-wheels/progress-1.2-py2.py3-none-any.whl
+pythonenv/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl
+pythonenv/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl
+pythonenv/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl
+pythonenv/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl
+pythonenv/share/python-wheels/six-1.11.0-py2.py3-none-any.whl
+pythonenv/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl
+pythonenv/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl
+pythonenv/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl
+scraper_airflow.py -> dags/scraper_airflow.py
