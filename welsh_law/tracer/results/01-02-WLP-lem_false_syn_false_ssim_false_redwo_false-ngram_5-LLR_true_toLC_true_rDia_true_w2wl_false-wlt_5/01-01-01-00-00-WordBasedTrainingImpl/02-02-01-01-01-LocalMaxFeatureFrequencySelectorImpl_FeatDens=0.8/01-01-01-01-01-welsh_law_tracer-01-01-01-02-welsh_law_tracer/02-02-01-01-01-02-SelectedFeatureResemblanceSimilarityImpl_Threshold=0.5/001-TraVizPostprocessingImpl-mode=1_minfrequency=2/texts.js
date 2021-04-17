@@ -1,0 +1,1 @@
+var texts = [{"min":11000001,"max":11000056,"title":"Cyfnerth_Mk_WLM"},{"min":12000001,"max":12000050,"title":"Cyfnerth_U_Peniarth 37_40u"},{"min":13000001,"max":13000024,"title":"Iorwerth_BL_Add_14931_t_24"},{"min":14000001,"max":14000033,"title":"Iorwerth_G90r1"}];

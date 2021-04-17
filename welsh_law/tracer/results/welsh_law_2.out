@@ -1,0 +1,100 @@
+Starting Tracer ...
+
+
+ConfigurationContainer: saving configuration to data/corpora/welsh_law/welsh_law_tracer.txt.conf
+Using FRAMEWORK_IMPL=eu.etrap.tracer.DefaultFrameWorkImpl
+ORIGINAL_CORPUS=data/corpora/welsh_law/welsh_law_tracer.txt
+Inverted positional list data/corpora/welsh_law/welsh_law_tracer.txt.inv is already computed.
+
+
+String similarity file data/corpora/welsh_law/welsh_law_tracer.txt.ssim is already computed.
+
+
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.char is already computed.
+
+Creating a set of letter n-grams ...
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.02gram is already computed.
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.03gram is already computed.
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.04gram is already computed.
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.05gram is already computed.
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.06gram is already computed.
+Character distribution file data/corpora/welsh_law/welsh_law_tracer.txt.tok.dist.letter.07gram is already computed.
+
+Generation of letter n-grams finished.
+
+
+
+
+
+START TO PROCESS LEVEL 1 (PRE-PROCESSING)
+
+Using implementation eu.etrap.tracer.preprocessing.WordLevelPreprocessingImpl for preprocessing.
+OUTPUT file outfile=data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/welsh_law_tracer.prep already exists
+
+
+Inverted positional list data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/welsh_law_tracer.prep.inv is already computed.
+
+
+
+END OF PROCESS LEVEL 1 (PRE-PROCESSING)
+
+
+
+START TO PROCESS LEVEL 2 (TRAINING)
+
+Using implementation eu.etrap.tracer.featuring.semantic.WordBasedTrainingImpl for training.
+OUTPUT file outfile=data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/welsh_law_tracer.train already exists
+
+END OF PROCESS LEVEL 2 (TRAINING)
+
+
+
+START TO PROCESS LEVEL 3 (SELECTION)
+
+0 of 1 configured selection implementations need to be excecuted. 1 selection strategies are already pre-computed.
+
+Creating multiple selection for ... ALREADY COMPUTED!!
+
+END OF PROCESS LEVEL 3 (SELECTION)
+
+
+
+START TO PROCESS LEVEL 4 (LINKING)
+
+Using eu.etrap.tracer.linking.IntraCorpusLinkingImpl implementation  for linking.
+OUTPUT file is outfile=data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/welsh_law_tracer-welsh_law_tracer.link ... 
+ 	ALREADY EXISTENT!!!
+
+END OF PROCESS LEVEL 4 (LINKING)
+
+
+
+START TO PROCESS LEVEL 5 (SCORING)
+
+Using eu.etrap.tracer.scoring.feature.selected.symmetric.SelectedFeatureResemblanceSimilarityImpl implementation  for scoring.
+OUTPUT file is outfile=data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/welsh_law_tracer-welsh_law_tracer.score ... 
+	Preparing data from data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/welsh_law_tracer.sel ...
+	Scoring data 
+		FROM data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/welsh_law_tracer-welsh_law_tracer.link ...
+		TO data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/welsh_law_tracer-welsh_law_tracer.score ...
+
+	DONE!!
+
+END OF PROCESS LEVEL 5 (SCORING)
+
+
+
+START TO PROCESS LEVEL 6 (POSTPROCESING)
+
+Using eu.etrap.tracer.postprocessing.traviz.TraVizPostprocessingImpl implementation  for postprocessing.
+OUTPUT file is outfile=data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/001-TraVizPostprocessingImpl-mode=1_minfrequency=2/welsh_law_tracer-welsh_law_tracer.pproc ... 
+Corpus file name         : data/corpora/welsh_law/welsh_law_tracer.txt
+TRACER's score file name : data/corpora/welsh_law/TRACER_DATA/01-02-WLP-lem_false_syn_false_ssim_false_redwo_false-ngram_5-LLR_true_toLC_true_rDia_true_w2wl_false-wlt_5/01-01-01-00-00-WordBasedTrainingImpl/02-02-01-01-01-LocalMaxFeatureFrequencySelectorImpl_FeatDens=0.8/01-01-01-01-01-welsh_law_tracer-01-01-01-02-welsh_law_tracer/02-02-01-01-01-02-SelectedFeatureResemblanceSimilarityImpl_Threshold=0.5/welsh_law_tracer-welsh_law_tracer.score
+TRV mode                 : 1
+Minimum frequency        : 2
+	DONE!!
+
+END OF PROCESS LEVEL 6 (POSTPROCESSING)
+
+
+
